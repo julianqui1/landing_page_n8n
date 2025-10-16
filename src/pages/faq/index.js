@@ -1,7 +1,7 @@
-import React from 'react';
-import FaqMain from './FaqMain';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import React from "react";
+import FaqMain from "./FaqMain";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const Faq = () => {
   return (

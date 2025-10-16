@@ -1,17 +1,17 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import bgImg from '../../assets/img/cta/cta-bg.png';
+import bgImg from "../../assets/img/cta/cta-bg.png";
 
 const CTA = (props) => {
   const { ctaBG, ctaClass, Title, Description, btnText, btnURL } = props;
 
-  return (
+  /*return (
     <div
       className={
         ctaClass
           ? ctaClass
-          : 'cta__area cta__bg cta__bg-2 cta__plr p-relative wow animate__fadeInUp'
+          : "cta__area cta__bg cta__bg-2 cta__plr p-relative wow animate__fadeInUp"
       }
       data-wow-duration=".9s"
       data-wow-delay=".5s"
@@ -27,7 +27,7 @@ const CTA = (props) => {
                   data-wow-duration=".9s"
                   data-wow-delay=".7s"
                 >
-                  {Title ? Title : 'Let’s Business Something Agency'}
+                  {Title ? Title : "Let’s Business Something Agency"}
                 </h4>
                 <p
                   className="text-white  wow animate__fadeInUp"
@@ -36,7 +36,7 @@ const CTA = (props) => {
                 >
                   {Description
                     ? Description
-                    : 'There are many variations of passages of agency Lorem Ipsum Fasts injecte'}
+                    : "There are many variations of passages of agency Lorem Ipsum Fasts injecte"}
                 </p>
               </div>
               <div
@@ -45,10 +45,10 @@ const CTA = (props) => {
                 data-wow-delay="1.1s"
               >
                 <Link
-                  to={`/${btnURL ? btnURL : 'about-us'}`}
+                  to={`/${btnURL ? btnURL : "about-us"}`}
                   className="white-btn tp-btn-hover alt-color"
                 >
-                  <span>{btnText ? btnText : 'Get Started'}</span>
+                  <span>{btnText ? btnText : "Gett Started"}</span>
                   <b></b>
                 </Link>
               </div>
@@ -57,7 +57,7 @@ const CTA = (props) => {
         </div>
       </div>
     </div>
-  );
+  );*/
 };
 
 export default CTA;

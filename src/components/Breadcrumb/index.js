@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import bgImg from '../../assets/img/slider/slider-bg-3.png';
-import Image from '../../assets/img/about/about-5.png';
-import shapeImg1 from '../../assets/img/slider/shape-32.png';
-import shapeImg2 from '../../assets/img/slider/shape-33.png';
-import shapeImg3 from '../../assets/img/slider/shape-34.png';
-import shapeImg4 from '../../assets/img/slider/shape-35.png';
-import shapeImg5 from '../../assets/img/slider/shape-24.png';
-import shapeImg6 from '../../assets/img/slider/shape-22.png';
+import bgImg from "../../assets/img/slider/slider-bg-3.png";
+import Image from "../../assets/img/about/about-5.png";
+import shapeImg1 from "../../assets/img/slider/shape-32.png";
+import shapeImg2 from "../../assets/img/slider/shape-33.png";
+import shapeImg3 from "../../assets/img/slider/shape-34.png";
+import shapeImg4 from "../../assets/img/slider/shape-35.png";
+import shapeImg5 from "../../assets/img/slider/shape-24.png";
+import shapeImg6 from "../../assets/img/slider/shape-22.png";
 
 const Breadcrumb = (props) => {
   const { pageTitle, breadcrumbsImg, breadcrumbsBg } = props;
@@ -54,7 +54,7 @@ const Breadcrumb = (props) => {
                 data-wow-duration=".9s"
                 data-wow-delay=".7s"
               >
-                {pageTitle ? pageTitle : 'About Us'}
+                Contacto
               </h3>
               <div
                 className="breadcrumb__button wow animate__fadeInUp"
@@ -62,8 +62,8 @@ const Breadcrumb = (props) => {
                 data-wow-delay=".9s"
               >
                 <Link to="/">
-                  Home<i className="far fa-angle-right"></i>
-                  <span>{pageTitle ? pageTitle : 'About Us'}</span>
+                  Inicio<i className="far fa-angle-right"></i>
+                  <span>Contacto</span>
                 </Link>
               </div>
             </div>
@@ -80,3 +80,5 @@ const Breadcrumb = (props) => {
 };
 
 export default Breadcrumb;
+
+//{pageTitle ? pageTitle : "About Us"}

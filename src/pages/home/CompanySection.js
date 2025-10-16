@@ -1,17 +1,17 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-import companyImg from '../../assets/img/company/company-1.png';
-import tabImg1 from '../../assets/img/company/company-tab-1.png';
-import tabImg2 from '../../assets/img/company/company-tab-1.png';
-import tabImg3 from '../../assets/img/company/company-tab-1.png';
+import companyImg from "../../assets/img/company/company-1.png";
+import tabImg1 from "../../assets/img/company/company-tab-1.png";
+import tabImg2 from "../../assets/img/company/company-tab-1.png";
+import tabImg3 from "../../assets/img/company/company-tab-1.png";
 
 const Company = () => {
-  let tab1 = 'Our Mission',
-    tab2 = 'Team Support',
-    tab3 = 'Projects Job';
-  const tabStyle = 'nav nav-tab';
+  /*let tab1 = "Our Mission",
+    tab2 = "Team Support",
+    tab3 = "Projects Job";*/
+  const tabStyle = "nav nav-tab";
 
   return (
     <div className="company__area pb-100">
@@ -44,7 +44,66 @@ const Company = () => {
                 been a game change
               </p>
             </div>
-            <Tabs>
+            <div className="tab-content" id="myTabContent">
+              <TabPanel>
+                <div className="company__tab-content-wrapper d-flex align-items-center">
+                  <div className="company__tab-icon">
+                    <span>
+                      <img src={tabImg1} alt="" />
+                    </span>
+                  </div>
+                  <div className="company__tab-text">
+                    <h4>Online Agency Website Service</h4>
+                    <span>App Design, Website</span>
+                  </div>
+                </div>
+              </TabPanel>
+              <TabPanel>
+                <div className="company__tab-content-wrapper d-flex align-items-center">
+                  <div className="company__tab-icon">
+                    <span>
+                      <img src={tabImg2} alt="" />
+                    </span>
+                  </div>
+                  <div className="company__tab-text">
+                    <h4>Team Support Website Service</h4>
+                    <span>App Design, Website</span>
+                  </div>
+                </div>
+              </TabPanel>
+              <TabPanel>
+                <div className="company__tab-content-wrapper d-flex align-items-center">
+                  <div className="company__tab-icon">
+                    <span>
+                      <img src={tabImg3} alt="" />
+                    </span>
+                  </div>
+                  <div className="company__tab-text">
+                    <h4>Projects Job Website Service</h4>
+                    <span>App Design, Website</span>
+                  </div>
+                </div>
+              </TabPanel>
+            </div>
+          </div>
+          <div className="company__button"></div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Company;
+
+/*<Link
+                to="/service-details"
+                className="main-btn tp-btn-hover alt-color"
+              >
+                <span>Read More</span>
+                <b></b>
+              </Link>*/
+
+/*<Tabs>
               <div className="company__service-tab">
                 <TabList className={tabStyle}>
                   <Tab>
@@ -62,64 +121,4 @@ const Company = () => {
                       <span>{tab3}</span>
                     </button>
                   </Tab>
-                </TabList>
-                <div className="tab-content" id="myTabContent">
-                  <TabPanel>
-                    <div className="company__tab-content-wrapper d-flex align-items-center">
-                      <div className="company__tab-icon">
-                        <span>
-                          <img src={tabImg1} alt="" />
-                        </span>
-                      </div>
-                      <div className="company__tab-text">
-                        <h4>Online Agency Website Service</h4>
-                        <span>App Design, Website</span>
-                      </div>
-                    </div>
-                  </TabPanel>
-                  <TabPanel>
-                    <div className="company__tab-content-wrapper d-flex align-items-center">
-                      <div className="company__tab-icon">
-                        <span>
-                          <img src={tabImg2} alt="" />
-                        </span>
-                      </div>
-                      <div className="company__tab-text">
-                        <h4>Team Support Website Service</h4>
-                        <span>App Design, Website</span>
-                      </div>
-                    </div>
-                  </TabPanel>
-                  <TabPanel>
-                    <div className="company__tab-content-wrapper d-flex align-items-center">
-                      <div className="company__tab-icon">
-                        <span>
-                          <img src={tabImg3} alt="" />
-                        </span>
-                      </div>
-                      <div className="company__tab-text">
-                        <h4>Projects Job Website Service</h4>
-                        <span>App Design, Website</span>
-                      </div>
-                    </div>
-                  </TabPanel>
-                </div>
-              </div>
-            </Tabs>
-            <div className="company__button">
-              <Link
-                to="/service-details"
-                className="main-btn tp-btn-hover alt-color"
-              >
-                <span>Read More</span>
-                <b></b>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default Company;
+                </TabList>*/

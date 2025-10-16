@@ -1,10 +1,10 @@
-import React from 'react';
-import SectionTitle from '../../components/SectionTitle';
-import SingleFeature from '../../components/Feature';
+import React from "react";
+import SectionTitle from "../../components/SectionTitle";
+import SingleFeature from "../../components/Feature";
 
-import featureImg1 from '../../assets/img/feature/fea-1.png';
-import featureImg2 from '../../assets/img/feature/fea-2.png';
-import featureImg3 from '../../assets/img/feature/fea-3.png';
+import featureImg1 from "../../assets/img/feature/fea-1.png";
+import featureImg2 from "../../assets/img/feature/fea-2.png";
+import featureImg3 from "../../assets/img/feature/fea-3.png";
 
 const Feature = () => {
   return (

@@ -1,7 +1,7 @@
-import React from 'react';
-import HomeMain from './HomeMain';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
+import React from "react";
+import HomeMain from "./HomeMain";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (

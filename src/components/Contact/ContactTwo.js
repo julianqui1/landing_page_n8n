@@ -1,10 +1,10 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-import shapeImg1 from '../../assets/img/contact/ct-shape-1.png';
-import shapeImg2 from '../../assets/img/contact/ct-shape-2.png';
-import shapeImg3 from '../../assets/img/contact/ct-shape-3.png';
-import shapeImg4 from '../../assets/img/contact/ct-shape-4.png';
+import shapeImg1 from "../../assets/img/contact/ct-shape-1.png";
+import shapeImg2 from "../../assets/img/contact/ct-shape-2.png";
+import shapeImg3 from "../../assets/img/contact/ct-shape-3.png";
+import shapeImg4 from "../../assets/img/contact/ct-shape-4.png";
 
 const ContactTwo = (props) => {
   const { itemClass } = props;
@@ -13,15 +13,15 @@ const ContactTwo = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formRef.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formRef.current, {
+        publicKey: "YOUR_PUBLIC_KEY",
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log("SUCCESS!");
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log("FAILED...", error.text);
         }
       );
   };
@@ -31,7 +31,7 @@ const ContactTwo = (props) => {
       className={
         itemClass
           ? itemClass
-          : 'contact__area contact__plr-2 mt-100 mb-100 p-relative fix'
+          : "contact__area contact__plr-2 mt-100 mb-100 p-relative fix"
       }
     >
       <div className="contact__shape-1 d-none d-lg-block">
@@ -51,16 +51,17 @@ const ContactTwo = (props) => {
           <div className="row align-items-center">
             <div className="col-xl-8 col-lg-7">
               <div className="contact__section-title pb-10">
-                <h4 className="section-subtitle char-anim">Get In Contact</h4>
+                <h4 className="section-subtitle char-anim">
+                  Ponte en contacto con nosotros
+                </h4>
                 <h3 className="section-title char-anim">
-                  Feel free to get in touch <br />
-                  Contact with me.
+                  No dudes en ponerte en contacto con nuestro equipo
                 </h3>
               </div>
               <div className="contact__text">
                 <p className="char-anim-2">
-                  Business tailored it design, management & support services
-                  business agency elit, sed do eiusmod tempor.{' '}
+                  Empresa dedica al diseño, gestión y soporte de servicios
+                  tecnologicos que impulsan tu negocio.{" "}
                 </p>
               </div>
               <div
@@ -71,17 +72,17 @@ const ContactTwo = (props) => {
                   <div className="row">
                     <div className="col-sm-6">
                       <div className="postbox__contact-input">
-                        <input type="text" placeholder="Your Name" />
+                        <input type="text" placeholder="Nombre" />
                       </div>
                     </div>
                     <div className="col-sm-6">
                       <div className="postbox__contact-input">
-                        <input type="email" placeholder="Your Email" />
+                        <input type="email" placeholder="Correo" />
                       </div>
                     </div>
                     <div className="col-sm-12">
                       <div className="postbox__contact-textarea">
-                        <textarea placeholder="Message"></textarea>
+                        <textarea placeholder="Mensaje"></textarea>
                       </div>
                     </div>
                   </div>
@@ -92,7 +93,7 @@ const ContactTwo = (props) => {
                 data-wow-duration="1.1s"
               >
                 <a className="main-btn-sm  tp-btn-hover alt-color" href="#">
-                  <span>Send Request</span>
+                  <span>Enviar</span>
                   <b></b>
                 </a>
               </div>
@@ -111,7 +112,7 @@ const ContactTwo = (props) => {
                     </span>
                   </div>
                   <div className="contact__content">
-                    <h4 className="contact__title-sm">Call This Now</h4>
+                    <h4 className="contact__title-sm">Llama ahora</h4>
                     <span>
                       <a href="tel:+025461556695">
                         +025461556695 <br />
@@ -132,7 +133,7 @@ const ContactTwo = (props) => {
                     </span>
                   </div>
                   <div className="contact__content">
-                    <h4 className="contact__title-sm">Your Message</h4>
+                    <h4 className="contact__title-sm">Escribemos</h4>
                     <span>
                       <a href="mailto:amar@mail.com">
                         amar@mail.com <br />
@@ -153,7 +154,7 @@ const ContactTwo = (props) => {
                     </span>
                   </div>
                   <div className="contact__content">
-                    <h4 className="contact__title-sm">Your location</h4>
+                    <h4 className="contact__title-sm">Nuestra ubicación</h4>
                     <span>
                       <a href="tel:+025461556695">
                         +025461556695 <br />

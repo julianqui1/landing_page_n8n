@@ -1,48 +1,32 @@
-import React, { useState } from 'react';
-import CountUp from 'react-countup';
-import VisibilitySensor from 'react-visibility-sensor';
+import React from "react";
 
-import SectionTitle from '../../components/SectionTitle';
-
-import shapeImg1 from '../../assets/img/counter/counter-shape-1.png';
-import shapeImg2 from '../../assets/img/counter/counter-shape-1.png';
+// Se mantienen las importaciones que necesitas para el fondo y el título
+import SectionTitle from "../../components/SectionTitle";
+import shapeImg1 from "../../assets/img/counter/counter-shape-1.png";
+import shapeImg2 from "../../assets/img/counter/counter-shape-1.png";
 
 const Counter = () => {
-  const [state, setState] = useState(true);
-
-  const counters = [
-    {
-      countNum: 12,
-      countSubtext: 'K',
-      countTitle: 'Work Per Week',
-      countIcon: 'fal fa-rocket-launch',
-      countClass: 'counter__item counter__color-1 text-center',
-    },
-    {
-      countNum: 99,
-      countSubtext: '+',
-      countTitle: 'Keywords Updated',
-      countIcon: 'fal fa-comments-alt',
-      countClass: 'counter__item counter__color-2 text-center',
-    },
-    {
-      countNum: 87,
-      countSubtext: '+',
-      countTitle: 'Google Search',
-      countIcon: 'far fa-cogs',
-      countClass: 'counter__item counter__color-3 text-center',
-    },
-    {
-      countNum: 5,
-      countSubtext: 'K',
-      countTitle: 'Indexed Google',
-      countIcon: 'fal fa-envelope-open-text',
-      countClass: 'counter__item counter__color-4 text-center',
-    },
-  ];
+  const plan = {
+    title: "Suscripción Básica", // Título ajustado para mayor claridad
+    subtitle: "Soluciones digitales con pago mensual",
+    price: 10,
+    badge: "Inicia Aquí",
+    features: [
+      { text: "Diseño Web Profesional y Moderno", included: true },
+      { text: "Sitio Web Adaptable a Móviles", included: true },
+      { text: "Hosting y Dominio Incluido", included: true },
+      { text: "Certificado de Seguridad (SSL)", included: true },
+      { text: "Mantenimiento y Soporte Básico", included: true },
+      { text: "Integración con Redes Sociales", included: true },
+      { text: "Automatización de Tareas (Ej: Formularios)", included: false },
+      { text: "Integración con CRM / ERP", included: false },
+      { text: "Funcionalidades E-commerce", included: false },
+      { text: "Soporte Prioritario", included: false },
+    ],
+  };
 
   return (
-    <div className="counter__area counter__mlr mb-70 z-index">
+    <div className="counter_area counter_mlr mb-70 z-index">
       <div className="counter__shape-1">
         <img src={shapeImg1} alt="" />
       </div>
@@ -60,59 +44,99 @@ const Counter = () => {
               <SectionTitle
                 sectionClass="counter__section-box text-center pb-35"
                 subTitleClass="section-subtitle section-white-bg title-anim"
-                titleClass="section-title text-white  title-anim"
-                subTitle="We Best Counter"
-                Title="Counter Industries server"
+                titleClass="section-title text-white title-anim"
+                subTitle="NUESTROS PLANES"
+                Title="Invierte en tu Crecimiento Digital"
               />
             </div>
           </div>
-          {counters && (
-            <div className="row">
-              {counters.map((counter, num) => (
+
+          <div className="row justify-content-center">
+            {/* 1. TARJETA MÁS ANCHA */}
+            <div className="col-xl-9 col-lg-10 mb-4">
+              <div className="card h-100 p-3 position-relative overflow-visible">
                 <div
-                  key={num}
-                  className="col-xl-3 col-lg-6 col-md-6 mb-30 wow animate__fadeInUp"
-                  data-wow-duration=".9s"
-                  data-wow-delay=".5s"
+                  className="position-absolute top-0 start-100 translate-middle"
+                  style={{ zIndex: 2 }}
                 >
                   <div
-                    className={` ${counter.countClass} ? ${counter.countClass} : 'counter__item counter__color-1 text-center`}
+                    className="bg-primary-subtle text-primary fw-bold p-3 rounded-circle d-flex align-items-center justify-content-center"
+                    style={{
+                      width: "120px",
+                      height: "120px",
+                      border: "3px solid white",
+                    }}
                   >
-                    <div className="counter__text">
-                      <h4 className="counter__title">{counter.countTitle}</h4>
-                    </div>
-                    <div className="counter__icon">
-                      <span>
-                        <i className={`fal ${counter.countIcon}`}></i>
-                      </span>
-                    </div>
-                    <div className="counter__text">
-                      <span>
-                        <i className="counter">
-                          <CountUp
-                            start={state ? 0 : counter.countNum}
-                            end={counter.countNum}
-                            duration={10}
-                            onEnd={() => setState(false)}
-                          >
-                            {({ countUpRef, start }) => (
-                              <VisibilitySensor onChange={start} delayedCall>
-                                <span ref={countUpRef} />
-                              </VisibilitySensor>
-                            )}
-                          </CountUp>
-                        </i>
-                        {counter.countSubtext}
-                      </span>
-                    </div>
+                    {plan.badge}
                   </div>
                 </div>
-              ))}
+
+                <div className="card-body">
+                  <div className="text-center">
+                    <h3 className="card-title">{plan.title}</h3>
+                    <p className="text-muted">{plan.subtitle}</p>
+                    <div className="my-4">
+                      <span className="text-muted fs-5 me-2">Desde</span>
+                      <span className="display-4 fw-bold">${plan.price}</span>
+                      <span className="fs-4 text-muted">/mes</span>
+                    </div>
+                  </div>
+
+                  {/* 2. LAYOUT DE DOS COLUMNAS */}
+                  <div className="row my-4">
+                    {/* COLUMNA 1: INCLUIDO */}
+                    <div className="col-md-6">
+                      <h5 className="fw-bold mb-3 text-center text-md-start">
+                        ¿Qué incluye?
+                      </h5>
+                      <ul className="list-unstyled">
+                        {plan.features
+                          .filter((feature) => feature.included)
+                          .map((feature, idx) => (
+                            <li
+                              key={idx}
+                              className="mb-3 d-flex align-items-center"
+                            >
+                              <span className="me-3 fs-5 text-success">✓</span>
+                              {feature.text}
+                            </li>
+                          ))}
+                      </ul>
+                    </div>
+
+                    {/* COLUMNA 2: PERSONALIZADO */}
+                    <div className="col-md-6 mt-4 mt-md-0 border-start-md">
+                      <h5 className="fw-bold mb-3 text-center text-md-start">
+                        ¿Necesitas más?
+                      </h5>
+                      <ul className="list-unstyled">
+                        {plan.features
+                          .filter((feature) => !feature.included)
+                          .map((feature, idx) => (
+                            <li
+                              key={idx}
+                              className="mb-3 d-flex align-items-center text-muted"
+                            >
+                              {/* 3. ICONOGRAFÍA MEJORADA */}
+                              <span className="me-3 fs-5 text-primary">+</span>
+                              {feature.text}
+                            </li>
+                          ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  <button className="btn btn-dark btn-lg w-100 fw-bold mt-auto">
+                    Cotizar Proyecto Personalizado
+                  </button>
+                </div>
+              </div>
             </div>
-          )}
+          </div>
         </div>
       </div>
     </div>
   );
 };
+
 export default Counter;

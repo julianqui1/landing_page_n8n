@@ -254,7 +254,7 @@ const MenuItems = (props) => {
       </li>
     </>*/
     <li className={location.pathname === "/contact" ? "active" : ""}>
-      <Link to="/contact">Contact</Link>
+      <Link to="/contact">Contacto</Link>
     </li>
   );
 };

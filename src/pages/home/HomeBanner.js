@@ -1,18 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import sliderImg1 from '../../assets/img/slider/slider-1.png';
-import shapeImg1 from '../../assets/img/slider/shape-1.png';
-import shapeImg2 from '../../assets/img/slider/shape-2.png';
-import shapeImg3 from '../../assets/img/slider/shape-3.png';
-import shapeImg4 from '../../assets/img/slider/shape-4.png';
-import shapeImg5 from '../../assets/img/slider/shape-5.png';
-import shapeImg6 from '../../assets/img/slider/shape-6.png';
-import shapeImg7 from '../../assets/img/slider/shape-7.png';
-import shapeImg8 from '../../assets/img/slider/shape-8.png';
-import shapeImg9 from '../../assets/img/slider/shape-9.png';
-import shapeImg10 from '../../assets/img/slider/shape-10.png';
-import shapeImg11 from '../../assets/img/slider/shape-11.png';
+import sliderImg1 from "../../assets/img/slider/slider-1.png";
+import shapeImg1 from "../../assets/img/slider/shape-1.png";
+import shapeImg2 from "../../assets/img/slider/shape-2.png";
+import shapeImg3 from "../../assets/img/slider/shape-3.png";
+import shapeImg4 from "../../assets/img/slider/shape-4.png";
+import shapeImg5 from "../../assets/img/slider/shape-5.png";
+import shapeImg6 from "../../assets/img/slider/shape-6.png";
+import shapeImg7 from "../../assets/img/slider/shape-7.png";
+import shapeImg8 from "../../assets/img/slider/shape-8.png";
+import shapeImg9 from "../../assets/img/slider/shape-9.png";
+import shapeImg10 from "../../assets/img/slider/shape-10.png";
+import shapeImg11 from "../../assets/img/slider/shape-11.png";
 
 const Banner = () => {
   return (
@@ -71,14 +71,14 @@ const Banner = () => {
                 data-wow-duration="1.1s"
                 data-wow-delay=".3s"
               >
-                We Are Best Agency!
+                Somos tu mejor opcion!
               </h4>
               <h3
                 className="hero-title char-anim wow animate__fadeInUp"
                 data-wow-duration="1.1s"
                 data-wow-delay=".3s"
               >
-                Agency Simple Best Smart That Will Help Grow to Are Your Busines
+                Soluciones inteligentes e innovadoras que impulsan tu negocio
               </h3>
             </div>
             <div
@@ -87,20 +87,15 @@ const Banner = () => {
               data-wow-delay=".3s"
             >
               <p className="char-anim-2">
-                Business tailored it design, management & support services
-                business agency elit, sed do eiusmod tempor.{' '}
+                Empresa dedica al diseño, gestión y soporte de servicios
+                tecnologicos que impulsan tu negocio.{" "}
               </p>
             </div>
             <div
               className="slider__btn wow animate__fadeInUp"
               data-wow-duration="1.1s"
               data-wow-delay=".5s"
-            >
-              <Link to="/about-us" className="main-btn tp-btn-hover alt-color">
-                <span>Get Started</span>
-                <b></b>
-              </Link>
-            </div>
+            ></div>
           </div>
           <div
             className="col-xl-6 col-lg-6 wow animate__fadeInRight"
@@ -118,3 +113,8 @@ const Banner = () => {
 };
 
 export default Banner;
+
+/*<Link to="/about-us" className="main-btn tp-btn-hover alt-color">
+  <span>Get Started</span>
+  <b></b>
+</Link>;*/

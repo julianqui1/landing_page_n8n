@@ -1,14 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import SectionTitle from '../../components/SectionTitle';
-import SingleBlog from '../../components/Blog';
+import SectionTitle from "../../components/SectionTitle";
+import SingleBlog from "../../components/Blog";
 
-import blogImg1 from '../../assets/img/blog/blog-1.jpg';
-import blogImg2 from '../../assets/img/blog/blog-2.jpg';
-import blogImg3 from '../../assets/img/blog/blog-3.jpg';
+import blogImg1 from "../../assets/img/blog/blog-1.jpg";
+import blogImg2 from "../../assets/img/blog/blog-2.jpg";
+import blogImg3 from "../../assets/img/blog/blog-3.jpg";
 
 const Blog = () => {
-  return (
+  /*return (
     <div className="blog__area blog__mlr blog__space">
       <div className="container-fluid">
         <div className="row justify-content-center">
@@ -85,7 +85,7 @@ const Blog = () => {
         </div>
       </div>
     </div>
-  );
+  );*/
 };
 
 export default Blog;

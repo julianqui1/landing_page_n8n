@@ -1,11 +1,11 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import ctaIcon from '../../assets/img/cta/cta-icon.png';
-import ctaBG from '../../assets/img/cta/cta-bg.png';
+import ctaIcon from "../../assets/img/cta/cta-icon.png";
+import ctaBG from "../../assets/img/cta/cta-bg.png";
 
 const CTA = () => {
-  return (
+  /*return (
     <div
       className="cta__area cta__bg cta__plr p-relative wow animate__fadeInUp"
       data-wow-duration="1.1s"
@@ -49,7 +49,7 @@ const CTA = () => {
         </div>
       </div>
     </div>
-  );
+  );*/
 };
 
 export default CTA;

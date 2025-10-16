@@ -1,29 +1,29 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Mousewheel, Navigation, Pagination } from 'swiper/modules';
-import SectionTitle from '../../components/SectionTitle';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Mousewheel, Navigation, Pagination } from "swiper/modules";
+import SectionTitle from "../../components/SectionTitle";
 
-import projectImg1 from '../../assets/img/project/pro-1.jpg';
-import projectImg2 from '../../assets/img/project/pro-2.jpg';
-import projectImg3 from '../../assets/img/project/pro-3.jpg';
-import projectImg4 from '../../assets/img/project/pro-1.jpg';
-import projectImg5 from '../../assets/img/project/pro-3.jpg';
-import projectImg6 from '../../assets/img/project/pro-2.jpg';
+import projectImg1 from "../../assets/img/project/pro-1.jpg";
+import projectImg2 from "../../assets/img/project/pro-2.jpg";
+import projectImg3 from "../../assets/img/project/pro-3.jpg";
+import projectImg4 from "../../assets/img/project/pro-1.jpg";
+import projectImg5 from "../../assets/img/project/pro-3.jpg";
+import projectImg6 from "../../assets/img/project/pro-2.jpg";
 
 const Project = () => {
   const sliderOption = {
     pagination: {
-      el: '.project-slider-dots',
+      el: ".project-slider-dots",
       clickable: true,
     },
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
     },
     loop: true,
     spaceBetween: 30,
-    slidesPerView: '3',
+    slidesPerView: "3",
     breakpoints: {
       0: {
         slidesPerView: 1,
@@ -37,7 +37,7 @@ const Project = () => {
     },
   };
 
-  return (
+  /*return (
     <div className="project__area project-height pt-90">
       <div className="container">
         <div className="row align-items-end pb-60">
@@ -128,7 +128,7 @@ const Project = () => {
         </div>
       </div>
     </div>
-  );
+  );*/
 };
 
 export default Project;

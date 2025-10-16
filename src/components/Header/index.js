@@ -156,8 +156,8 @@ const Header = (props) => {
           </div>
           <div className="itoffcanvas__text">
             <p>
-              Suspendisse interdum consectetur libero id. Fermentum leo vel orci
-              porta non. Euismod viverra nibh cras pulvinar suspen.
+              Contactanos para una consulta gratuita y descubre cómo podemos
+              ayudarte a llevar tu negocio al siguiente nivel.
             </p>
           </div>
           <div
@@ -174,7 +174,7 @@ const Header = (props) => {
             </div>
           </div>
           <div className="itoffcanvas__info">
-            <h3 className="offcanva-title">Get In Touch</h3>
+            <h3 className="offcanva-title">Contactanos</h3>
             <div className="it-info-wrapper mb-20 d-flex align-items-center">
               <div className="itoffcanvas__info-icon">
                 <a href="#">
@@ -182,7 +182,7 @@ const Header = (props) => {
                 </a>
               </div>
               <div className="itoffcanvas__info-address">
-                <span>Email</span>
+                <span>Correo</span>
                 <a href="maito:hello@yourmail.com">hello@yourmail.com</a>
               </div>
             </div>
@@ -193,7 +193,7 @@ const Header = (props) => {
                 </a>
               </div>
               <div className="itoffcanvas__info-address">
-                <span>Phone</span>
+                <span>Telefono</span>
                 <a href="tel:(00)45611227890">(00) 456 1122 7890</a>
               </div>
             </div>
@@ -204,7 +204,7 @@ const Header = (props) => {
                 </a>
               </div>
               <div className="itoffcanvas__info-address">
-                <span>Location</span>
+                <span>Ubicación</span>
                 <a
                   href="htits://www.google.com/maps/@37.4801311,22.8928877,3z"
                   target="_blank"

@@ -1,10 +1,10 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
-import shapeImg1 from '../../assets/img/contact/ct-shape-1.png';
-import shapeImg2 from '../../assets/img/contact/ct-shape-2.png';
-import shapeImg3 from '../../assets/img/contact/ct-shape-3.png';
-import shapeImg4 from '../../assets/img/contact/ct-shape-4.png';
+import shapeImg1 from "../../assets/img/contact/ct-shape-1.png";
+import shapeImg2 from "../../assets/img/contact/ct-shape-2.png";
+import shapeImg3 from "../../assets/img/contact/ct-shape-3.png";
+import shapeImg4 from "../../assets/img/contact/ct-shape-4.png";
 
 const Contact = (props) => {
   const { itemClass } = props;
@@ -13,15 +13,15 @@ const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formRef.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formRef.current, {
+        publicKey: "YOUR_PUBLIC_KEY",
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log("SUCCESS!");
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log("FAILED...", error.text);
         }
       );
   };
@@ -29,7 +29,7 @@ const Contact = (props) => {
   return (
     <div
       className={
-        itemClass ? itemClass : 'contact__area contact__plr p-relative fix'
+        itemClass ? itemClass : "contact__area contact__plr p-relative fix"
       }
     >
       <div className="contact__shape-1 d-none d-lg-block">
@@ -48,7 +48,9 @@ const Contact = (props) => {
         <div className="row align-items-center">
           <div className="col-xl-8 col-lg-7">
             <div className="contact__section-title pb-10">
-              <h4 className="section-subtitle char-anim">Get In Contact</h4>
+              <h4 className="section-subtitle char-anim">
+                Ponte en contacto con nosotros
+              </h4>
               <h3 className="section-title char-anim">
                 Feel free to get in touch <br />
                 Contact with me.
@@ -57,7 +59,7 @@ const Contact = (props) => {
             <div className="contact__text">
               <p className="char-anim-2">
                 Business tailored it design, management & support services
-                business agency elit, sed do eiusmod tempor.{' '}
+                business agency elit, sed do eiusmod tempor.{" "}
               </p>
             </div>
             <div

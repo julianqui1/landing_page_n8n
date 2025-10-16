@@ -1,27 +1,40 @@
-import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SingleTestimonial from '../../components/Testimonial';
-import SectionTitle from '../../components/SectionTitle';
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SingleTestimonial from "../../components/Testimonial";
+import SectionTitle from "../../components/SectionTitle";
+import { Autoplay } from "swiper/modules";
 
-import shapeImg1 from '../../assets/img/testimonial/testi-shape-2.png';
-import shapeImg2 from '../../assets/img/testimonial/testi-shape-3.png';
-import shapeImg3 from '../../assets/img/testimonial/testi-shape-4.png';
+import "swiper/css/autoplay";
+import "swiper/css";
 
-import testimonialImg1 from '../../assets/img/testimonial/testi-1.png';
-import testimonialImg2 from '../../assets/img/testimonial/testi-2.jpg';
-import testimonialImg3 from '../../assets/img/testimonial/testi-1.png';
-import testimonialImg4 from '../../assets/img/testimonial/testi-2.jpg';
-import { Pagination } from 'swiper/modules';
+import shapeImg1 from "../../assets/img/testimonial/testi-shape-2.png";
+import shapeImg2 from "../../assets/img/testimonial/testi-shape-3.png";
+import shapeImg3 from "../../assets/img/testimonial/testi-shape-4.png";
+
+import testimonialImg1 from "../../assets/img/testimonial/testi-1.png";
+import testimonialImg2 from "../../assets/img/testimonial/testi-2.jpg";
+import testimonialImg3 from "../../assets/img/testimonial/testi-1.png";
+import testimonialImg4 from "../../assets/img/testimonial/testi-2.jpg";
+import { Pagination } from "swiper/modules";
 
 const Testimonial = () => {
   const sliderOption = {
     pagination: {
-      el: '.testimonial-slider-dots',
+      el: ".testimonial-slider-dots",
       clickable: true,
     },
+    modules: [Autoplay],
+    slidesPerView: "2",
     loop: true,
     spaceBetween: 30,
-    slidesPerView: '2',
+    speed: 4000,
+    autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+    },
+    freeMode: true,
+    freeModeMomentum: false,
+    allowTouchMove: false,
     breakpoints: {
       0: {
         slidesPerView: 1,
