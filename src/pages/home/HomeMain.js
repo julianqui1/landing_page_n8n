@@ -20,8 +20,6 @@ const HomeMain = () => {
 
       <Feature />
 
-      <About />
-
       <Counter />
 
       <Service />
@@ -46,3 +44,5 @@ const HomeMain = () => {
 };
 
 export default HomeMain;
+
+//<About />

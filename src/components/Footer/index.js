@@ -1,15 +1,15 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Logo from '../../assets/img/logo/footer-logo.png';
-import footerBG from '../../assets/img/footer/footer-bg.jpg';
+import Logo from "../../assets/img/logo/footer-logo.png";
+import footerBG from "../../assets/img/footer/footer-bg.jpg";
 
 const Footer = (props) => {
   const { footerLogo, footerClass } = props;
   return (
     <footer>
       <div
-        className={footerClass ? footerClass : 'footer__area footer__plr'}
+        className={footerClass ? footerClass : "footer__area footer__plr"}
         style={{ backgroundImage: `url(${footerBG})` }}
       >
         <div className="container-fluid">
@@ -27,8 +27,8 @@ const Footer = (props) => {
                 <div className="footer__content">
                   <div className="footer__text">
                     <p>
-                      Our approach to itis unique around know work an we know
-                      doesn’t work verified factors in play.
+                      Nos diferenciamos porque sabemos qué estrategias generan
+                      resultados y qué factores influyen en su éxito.
                     </p>
                   </div>
                   <div className="footer__number-wrapper d-flex align-items-center">
@@ -37,9 +37,15 @@ const Footer = (props) => {
                         <i className="fal fa-phone-alt"></i>
                       </span>
                     </div>
-                    <div className="footer__number-info">
-                      <span>Have Any Questions?</span>
-                      <a href="tel:+230045647823">+230-045-647-823</a>
+                    <div className="col">
+                      <div className="footer__number-info">
+                        <span>Tienes alguna pregunta?</span>
+                        <a href="tel:+230045647823">+230-045-647-823</a>
+                      </div>
+                      <div className="footer__number-info">
+                        <span>Ubicación</span>
+                        <a href="">Colombia</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -123,18 +129,18 @@ const Footer = (props) => {
                   </form>
                 </div>
                 <div className="footer__social-box">
-                  <span>Social Media:</span>
+                  <span>Redes sociales</span>
                   <a href="#">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-twitter"></i>
                   </a>
                   <a href="#">
                     <i className="fab fa-google-plus-g"></i>
                   </a>
                   <a href="#">
-                    <i className="fab fa-pinterest-p"></i>
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                  <a href="#">
+                    <i className="fab fa-whatsapp-square"></i>
                   </a>
                 </div>
               </div>

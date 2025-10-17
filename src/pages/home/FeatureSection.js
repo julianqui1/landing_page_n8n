@@ -67,7 +67,7 @@ const Feature = () => {
           <div
             className="col-xl-4 col-lg-6 col-md-6 mb-30 wow animate__fadeInUp"
             data-wow-duration="1.1s"
-            data-wow-delay=".11s"
+            data-wow-delay=".5s"
           >
             <SingleFeature
               itemClass="feature__item feature__color-1 text-center"
@@ -81,7 +81,7 @@ const Feature = () => {
           <div
             className="col-xl-4 col-lg-6 col-md-6 mb-30 wow animate__fadeInUp"
             data-wow-duration="1.1s"
-            data-wow-delay=".13s"
+            data-wow-delay=".7s"
           >
             <SingleFeature
               itemClass="feature__item feature__color-2 text-center"
@@ -95,7 +95,7 @@ const Feature = () => {
           <div
             className="col-xl-4 col-lg-6 col-md-6 mb-30 wow animate__fadeInUp"
             data-wow-duration="1.1s"
-            data-wow-delay=".15s"
+            data-wow-delay=".9s"
           >
             <SingleFeature
               itemClass="feature__item feature__color-3 text-center"

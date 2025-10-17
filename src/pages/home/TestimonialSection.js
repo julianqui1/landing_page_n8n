@@ -67,7 +67,7 @@ const Testimonial = () => {
               subTitleClass="section-subtitle section-white-bg"
               titleClass="section-title text-white"
               subTitle="Client Testimonial"
-              Title="Perfect Contact This Software Company Manage."
+              Title="Testimonios"
             />
           </div>
         </div>

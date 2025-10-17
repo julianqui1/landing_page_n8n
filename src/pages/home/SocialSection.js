@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import SocialFeed from '../../components/SocialFeed';
-import SectionTitle from '../../components/SectionTitle';
+import SocialFeed from "../../components/SocialFeed";
+import SectionTitle from "../../components/SectionTitle";
 
 const Social = () => {
   return (
@@ -16,7 +16,7 @@ const Social = () => {
             <SectionTitle
               sectionClass="social__section-box pb-60 text-center section-title-fixed-width"
               subTitle="Best Social Feed"
-              Title="Perfect Contact This Software Company Manage."
+              Title="Nuestro ecosistema digital"
             />
           </div>
         </div>

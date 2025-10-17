@@ -33,15 +33,25 @@ const Company = () => {
           >
             <div className="company__section-box">
               <h4 className="section-subtitle char-anim">
-                Our Company Solution
+                Tecnología que hace crecer tu negocio
               </h4>
               <h3 className="section-title pb-10 char-anim">
-                Unique Agncy and Solution for every Company.
+                Llevamos la automatización y el desarrollo digital a empresas
+                que buscan ser más competitivas sin complicaciones ni altos
+                costos.
               </h3>
               <p className="char-anim-2">
-                Being able to crank out videos consistently, localize them for
-                different regions, and still save resources, time, energy has
-                been a game change
+                En SoftIntelligent, creemos que la tecnología debe trabajar para
+                las personas, no al revés. Somos una empresa colombiana dedicada
+                a crear soluciones digitales inteligentes que ayudan a las
+                empresas de toda Latinoamérica a optimizar procesos, automatizar
+                tareas y potenciar su presencia digital. Desarrollamos software
+                a medida, sitios web, chatbots, automatizaciones y estrategias
+                de marketing digital con un enfoque en resultados reales.
+                Nuestro compromiso es acompañarte en cada paso del crecimiento
+                de tu negocio, con innovación, eficiencia y un trato humano.
+                SoftIntelligent: tecnología hecha en Colombia para transformar
+                Latinoamérica.
               </p>
             </div>
             <div className="tab-content" id="myTabContent">

@@ -228,6 +228,9 @@ const Header = (props) => {
               <a href="#">
                 <i className="fab fa-dribbble"></i>
               </a>
+              <a href="#">
+                <i className="fab fa-whatsapp-square"></i>
+              </a>
             </div>
           </div>
         </div>

@@ -40,6 +40,13 @@ const Brand = (props) => {
       }
     >
       <div className="container">
+        <div className="pt-5">
+          <h2 className="text-center ">Empresas</h2>
+          <p className="text-center">
+            Empresas que apuestan por la innovación y confían en nuestras
+            soluciones inteligentes.
+          </p>
+        </div>
         <div className="row">
           <div className="col-12">
             <div className="swiper-container brand__active">
