@@ -30,13 +30,13 @@ const HomeMain = () => {
 
       <Social />
 
-      <Testimonial />
-
-      <Brand />
+      <Ceo />
 
       <Company />
 
-      <Ceo />
+      <Brand />
+
+      <Testimonial />
 
       <Blog />
 

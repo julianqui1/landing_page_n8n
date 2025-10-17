@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 import sliderImg1 from "../../assets/img/slider/slider-1.png";
 import shapeImg1 from "../../assets/img/slider/shape-1.png";
@@ -71,14 +71,15 @@ const Banner = () => {
                 data-wow-duration="1.1s"
                 data-wow-delay=".3s"
               >
-                Somos tu mejor opcion!
+                Haz más, invirtiendo menos
               </h4>
               <h3
                 className="hero-title char-anim wow animate__fadeInUp"
                 data-wow-duration="1.1s"
                 data-wow-delay=".3s"
               >
-                Soluciones inteligentes e innovadoras que impulsan tu negocio
+                Ahorra hasta un 40% en costos operativos y libera cientos de
+                horas al año
               </h3>
             </div>
             <div
@@ -87,8 +88,8 @@ const Banner = () => {
               data-wow-delay=".3s"
             >
               <p className="char-anim-2">
-                Empresa dedica al diseño, gestión y soporte de servicios
-                tecnologicos que impulsan tu negocio.{" "}
+                Optimizamos procesos que te ahorran tiempo y reducen costos con
+                soluciones tecnológicas accesibles y efectivas.{" "}
               </p>
             </div>
             <div

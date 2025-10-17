@@ -31,27 +31,10 @@ const Ceo = () => {
               <div className="ceo__item">
                 <div className="ceo__main-img">
                   <img src={testimonialImg1} alt="Fundador 1" />
-                  <div className="ceo__overlay">
-                    <div className="ceo__social-box">
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in"></i>
-                      </a>
-                    </div>
-                  </div>
                 </div>
                 <div className="ceo__content">
                   <h5 className="ceo__author-name">Santiago Henao Monsalve</h5>
-                  <p>
-                    Desarrollador Senior de software con más de 5 años de
-                    experiencia en la creación de soluciones innovadoras y
-                    eficientes para diversas industrias.
-                  </p>
+                  <p>Cofundador-CEO</p>
                 </div>
               </div>
             </div>
@@ -62,28 +45,12 @@ const Ceo = () => {
               <div className="ceo__item">
                 <div className="ceo__main-img">
                   <img src={testimonialImg1} alt="Fundador 2" />
-                  <div className="ceo__overlay">
-                    <div className="ceo__social-box">
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in"></i>
-                      </a>
-                    </div>
-                  </div>
                 </div>
                 <div className="ceo__content">
                   <h5 className="ceo__author-name">
                     Brayam Alexander Chica Betancur
                   </h5>
-                  <p>
-                    Ingeniero en sistemas apasionado por el desarrollo web y las
-                    nuevas tecnologías.
-                  </p>
+                  <p>Lider de QA-Cofundador</p>
                 </div>
               </div>
             </div>
@@ -94,27 +61,10 @@ const Ceo = () => {
               <div className="ceo__item">
                 <div className="ceo__main-img">
                   <img src={testimonialImg1} alt="Fundador 1" />
-                  <div className="ceo__overlay">
-                    <div className="ceo__social-box">
-                      <a href="#">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in"></i>
-                      </a>
-                    </div>
-                  </div>
                 </div>
                 <div className="ceo__content">
                   <h5 className="ceo__author-name">Julia Quintero Quintero</h5>
-                  <p>
-                    Especialista en innovación y emprendimiento tecnológico, con
-                    amplia experiencia liderando equipos ágiles y proyectos de
-                    desarrollo de software.
-                  </p>
+                  <p>Lider de desarrollo-Cofundador</p>
                 </div>
               </div>
             </div>
@@ -134,3 +84,18 @@ const Ceo = () => {
   );
 };
 export default Ceo;
+
+//Redes sociales de los fundadores
+/*<div className="ceo__overlay">
+                    <div className="ceo__social-box">
+                      <a href="#">
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="#">
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                      <a href="#">
+                        <i className="fab fa-linkedin-in"></i>
+                      </a>
+                    </div>
+                  </div>*/

@@ -10,7 +10,7 @@ const SectionTitle = (props) => {
       }
     >
       <h3 className={titleClass ? titleClass : "section-title title-anim"}>
-        {Title ? Title : "We Are the Best Software Company Manage."}
+        {Title ? Title : "Lo que Hacemos por Tu Crecimiento"}
       </h3>
     </div>
   );
