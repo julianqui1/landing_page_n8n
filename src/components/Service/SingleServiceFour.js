@@ -1,66 +1,124 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+// import React from 'react';
+// import { Link } from 'react-router-dom';
 
-import Shape from '../../assets/img/service/sv-item-shape-1.png';
-import Image from '../../assets/img/service/sv-icon-shape-1.png';
+// import Shape from '../../assets/img/service/sv-item-shape-1.png';
+// import Image from '../../assets/img/service/sv-icon-shape-1.png';
+
+// const SingleServiceFour = (props) => {
+//   const {
+//     itemClass,
+//     titleClass,
+//     shapeImg,
+//     serviceIconBg,
+//     Title,
+//     Description,
+//     btnText,
+//     btnURL,
+//     btnClass,
+//   } = props;
+//   return (
+//     <div
+//       className={
+//         itemClass ? itemClass : 'service__item service__item-bg p-relative fix'
+//       }
+//     >
+//       <div className="service__shape-1">
+//         <img src={Shape ? Shape : shapeImg} alt="" />
+//       </div>
+//       <div className="service__icon-wrapper pb-25 p-relative">
+//         <div className="service__icon-bg">
+//           <img src={serviceIconBg ? serviceIconBg : Image} alt="" />
+//         </div>
+//         <div className="service__inner-icon inner-hight">
+//           <span>
+//             <a href="#">
+//               <i className="fal fa-plug"></i>
+//             </a>
+//           </span>
+//         </div>
+//       </div>
+//       <div className="service__content">
+//         <h4
+//           className={
+//             titleClass ? titleClass : 'service__title service__title-color-1'
+//           }
+//         >
+//           <Link to={`/${btnURL ? btnURL : 'service-details'}`}>
+//             {Title ? Title : 'Get Latest Updates'}{' '}
+//           </Link>
+//         </h4>
+//         <p className="text-white">
+//           {Description
+//             ? Description
+//             : 'Business building it before the tab providet management, Payroll & Worksite Services full-fledged.'}
+//         </p>
+//       </div>
+//       <div
+//         className={btnClass ? btnClass : 'service__link service__link-color-1'}
+//       >
+//         <Link to={`/${btnURL ? btnURL : 'service-details'}`}>
+//           {btnText ? btnText : 'Read More'}
+//           <i className="fal fa-arrow-right"></i>
+//         </Link>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default SingleServiceFour;
+
+import React from "react";
+import { Link } from "react-router-dom";
+
+// Ya no necesitas las imágenes para el ícono, solo el shape si lo usas.
+import Shape from "../../assets/img/service/sv-item-shape-1.png";
 
 const SingleServiceFour = (props) => {
   const {
     itemClass,
     titleClass,
-    shapeImg,
-    serviceIconBg,
+    // Eliminamos serviceIconBg y añadimos 'icon'
+    icon,
     Title,
     Description,
-    btnText,
-    btnURL,
-    btnClass,
+    btnText, // Opcional, lo puedes quitar si ya no usas el botón
   } = props;
+
   return (
     <div
-      className={
-        itemClass ? itemClass : 'service__item service__item-bg p-relative fix'
-      }
+      className={itemClass || "service__item service__item-bg p-relative fix"}
     >
       <div className="service__shape-1">
-        <img src={Shape ? Shape : shapeImg} alt="" />
+        <img src={Shape} alt="" />
       </div>
-      <div className="service__icon-wrapper pb-25 p-relative">
-        <div className="service__icon-bg">
-          <img src={serviceIconBg ? serviceIconBg : Image} alt="" />
-        </div>
-        <div className="service__inner-icon inner-hight">
-          <span>
-            <a href="#">
-              <i className="fal fa-plug"></i>
-            </a>
-          </span>
-        </div>
+
+      {/* --- SECCIÓN DEL ICONO MODIFICADA --- */}
+      <div className="service__icon">
+        {/* Usamos la nueva prop 'icon' para definir la clase del <i> */}
+        <i className={icon || "fas fa-question-circle"}></i>
       </div>
+
       <div className="service__content">
-        <h4
-          className={
-            titleClass ? titleClass : 'service__title service__title-color-1'
-          }
-        >
-          <Link to={`/${btnURL ? btnURL : 'service-details'}`}>
-            {Title ? Title : 'Get Latest Updates'}{' '}
-          </Link>
+        <h4 className={titleClass || "service__title service__title-color-1"}>
+          <Link to="/service-details">{Title || "Get Latest Updates"}</Link>
         </h4>
-        <p className="text-white">
-          {Description
-            ? Description
-            : 'Business building it before the tab providet management, Payroll & Worksite Services full-fledged.'}
+        <p>
+          {" "}
+          {/* Quité la clase text-white para que herede el color del contenedor */}
+          {Description ||
+            "Business building it before the tab providet management, Payroll & Worksite Services full-fledged."}
         </p>
       </div>
-      <div
-        className={btnClass ? btnClass : 'service__link service__link-color-1'}
-      >
-        <Link to={`/${btnURL ? btnURL : 'service-details'}`}>
-          {btnText ? btnText : 'Read More'}
-          <i className="fal fa-arrow-right"></i>
-        </Link>
-      </div>
+
+      {/* Puedes eliminar esta sección si ya no quieres el botón "Read More" */}
+      {btnText && (
+        <div className={"service__link service__link-color-1"}>
+          <Link to="/service-details">
+            {btnText}
+            <i className="fal fa-arrow-right"></i>
+          </Link>
+        </div>
+      )}
     </div>
   );
 };
