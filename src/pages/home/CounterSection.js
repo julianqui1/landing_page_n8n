@@ -26,6 +26,10 @@ const Counter = () => {
       { text: "Integración con CRM / ERP", included: false },
       { text: "Funcionalidades E-commerce", included: false },
       { text: "Soporte Prioritario", included: false },
+      { text: "Gestión completa de tu sitio", included: false },
+      { text: "Atención personalizada", included: false },
+      { text: "Reportes de rendimiento", included: false },
+      { text: "Tu marca visible en Internet", included: false },
     ],
   };
 
@@ -81,7 +85,9 @@ const Counter = () => {
                     <p className="text-muted">{plan.subtitle}</p>
                     <div className="my-4">
                       <span className="text-muted fs-5 me-2">Desde</span>
-                      <span className="display-4 fw-bold">${plan.price}</span>
+                      <span className="display-4 fw-bold">
+                        ${plan.price} USD
+                      </span>
                       <span className="fs-4 text-muted">/mes</span>
                     </div>
                   </div>

@@ -146,42 +146,42 @@ const Service = () => {
     {
       title: "Desarrollo Web Moderno",
       description:
-        "Creamos sitios web visualmente atractivos y funcionales que reflejan la identidad de tu marca y atraen a tus clientes.",
+        "Creamos sitios web visualmente atractivos, rápidos y funcionales, diseñados para reflejar la identidad de tu marca y adaptarse a cualquier dispositivo. Tus clientes disfrutarán una experiencia moderna, sin importar desde dónde te visiten..",
       icon: "fas fa-laptop-code",
       colorClass: "1",
     },
     {
-      title: "Diseño Adaptable (Responsive)",
+      title: "Automatización e Integraciones Inteligentes",
       description:
-        "Tu sitio web se verá y funcionará perfectamente en cualquier dispositivo: computadores, tabletas y teléfonos móviles.",
+        "Conectamos tus herramientas y sistemas, facturación, gestión de clientes (CRM) o control interno (ERP) para que toda tu información se sincronice automáticamente. Así, tareas como registros, reportes o cotizaciones se hacen solas, ahorrándote horas de trabajo y reduciendo errores.",
       icon: "fas fa-mobile-alt",
       colorClass: "2",
     },
     {
       title: "Integración de Inteligencia Artificial",
       description:
-        "Potenciamos tu web con IA para ofrecer experiencias personalizadas, chatbots inteligentes o análisis de datos avanzados.",
+        "Impulsa tu negocio con asistentes inteligentes que responden preguntas, agendan citas o venden por ti las 24 horas. Además, analizamos los datos para ofrecerte decisiones más acertadas.",
       icon: "fas fa-brain", // <- ICONO Y TEXTO CAMBIADO
       colorClass: "3",
     },
     {
-      title: "Automatización de Tareas",
+      title: "Funcionalidades E-commerce",
       description:
-        "Ahorra tiempo y reduce errores conectando tus aplicaciones. Ideal para gestionar formularios de contacto, clientes y más.",
+        "Convierte tu sitio web en una tienda online profesional con carrito de compras, pagos seguros y control de pedidos. Ideal para vender tus productos o servicios sin intermediarios.",
       icon: "fas fa-cogs",
       colorClass: "4",
     },
     {
-      title: "Integraciones con ERP/CRM",
+      title: "Conectividad total",
       description:
-        "Conectamos tu sitio web con tus sistemas de gestión interna para mantener toda la información de tu negocio sincronizada.",
+        "Conecta tu sitio con tus redes sociales y sistemas de gestión interna. Mantén toda la información sincronizada y comunícate mejor con tus clientes en todos los canales.",
       icon: "fas fa-sync-alt",
       colorClass: "5",
     },
     {
       title: "Soporte y Mantenimiento",
       description:
-        "Mantenemos tu web actualizada, segura y funcionando sin problemas, para que tú solo te preocupes por tu negocio.",
+        "Nos encargamos de que tu web esté siempre activa, segura y actualizada. Si algo falla, lo resolvemos rápido para que tú solo te enfoques en hacer crecer tu negocio.",
       icon: "fas fa-headset",
       colorClass: "6",
     },

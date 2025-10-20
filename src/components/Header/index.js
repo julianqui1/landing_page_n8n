@@ -115,7 +115,7 @@ const Header = (props) => {
                   </nav>
                 </div>
               </div>
-              <div className="col-xl-1 col-lg-2 col-5 col-md-6">
+              <div className="col-xl-1 col-lg-1 col-5 col-md-6">
                 <div className="header__action d-flex justify-content-end">
                   <div className="header__menu-bar">
                     <button
@@ -217,16 +217,13 @@ const Header = (props) => {
           <div className="itoffcanvas__social">
             <div className="social-icon">
               <a href="#">
-                <i className="fab fa-twitter"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
               <a href="#">
                 <i className="fab fa-instagram"></i>
               </a>
               <a href="#">
-                <i className="fab fa-facebook-square"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-dribbble"></i>
+                <i class="fab fa-tiktok"></i>
               </a>
               <a href="#">
                 <i className="fab fa-whatsapp-square"></i>

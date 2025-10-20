@@ -33,20 +33,6 @@ const Ceo = () => {
                   <img src={testimonialImg1} alt="Fundador 1" />
                 </div>
                 <div className="ceo__content">
-                  <h5 className="ceo__author-name">Santiago Henao Monsalve</h5>
-                  <p>Cofundador-CEO</p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="z-index wow animate__fadeInUp"
-              data-wow-duration="1.1s"
-            >
-              <div className="ceo__item">
-                <div className="ceo__main-img">
-                  <img src={testimonialImg1} alt="Fundador 2" />
-                </div>
-                <div className="ceo__content">
                   <h5 className="ceo__author-name">
                     Brayam Alexander Chica Betancur
                   </h5>
@@ -60,10 +46,24 @@ const Ceo = () => {
             >
               <div className="ceo__item">
                 <div className="ceo__main-img">
+                  <img src={testimonialImg1} alt="Fundador 2" />
+                </div>
+                <div className="ceo__content">
+                  <h5 className="ceo__author-name">Santiago Henao Monsalve</h5>
+                  <p>Cofundador-CTO</p>
+                </div>
+              </div>
+            </div>
+            <div
+              className="z-index wow animate__fadeInUp"
+              data-wow-duration="1.1s"
+            >
+              <div className="ceo__item">
+                <div className="ceo__main-img">
                   <img src={testimonialImg1} alt="Fundador 1" />
                 </div>
                 <div className="ceo__content">
-                  <h5 className="ceo__author-name">Julia Quintero Quintero</h5>
+                  <h5 className="ceo__author-name">Julian Quintero Quintero</h5>
                   <p>Lider de desarrollo-Cofundador</p>
                 </div>
               </div>

@@ -480,20 +480,13 @@
   }
 }
 
-/*.header__main-menu ul li a {
-  background-color: #ffd54f;
-  color: #000;
-  border: 2px solid #ffd54f;
-  border-radius: 50px;
-  padding: 10px 25px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  margin-left: 10px;
-  text-decoration: none;
+.header__main-menu {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.header__main-menu ul li a:hover {
-  background-color: #000;
-  border-color: #000;
-  color: #fff;
-}*/
+.header__main-menu nav ul {
+  display: flex;
+  gap: 30px;
+  flex-wrap: nowrap;
+}
