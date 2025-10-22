@@ -52,7 +52,7 @@ const Counter = () => {
               <SectionTitle
                 sectionClass="counter__section-box text-center pb-35"
                 subTitleClass="section-subtitle section-white-bg title-anim"
-                titleClass="section-title text-white title-anim"
+                titleClass="section-title text-black title-anim"
                 subTitle="NUESTROS PLANES"
                 Title="Invierte en tu Crecimiento Digital"
               />
@@ -135,10 +135,6 @@ const Counter = () => {
                       </ul>
                     </div>
                   </div>
-
-                  <button className="btn btn-dark btn-lg w-100 fw-bold mt-auto">
-                    Cotizar Proyecto Personalizado
-                  </button>
                 </div>
               </div>
             </div>
@@ -149,4 +145,7 @@ const Counter = () => {
   );
 };
 
+/*<button className="btn btn-dark btn-lg w-100 fw-bold mt-auto">
+  Cotizar Proyecto Personalizado
+</button>;*/
 export default Counter;

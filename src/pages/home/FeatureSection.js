@@ -28,7 +28,7 @@ const Feature = () => {
             data-wow-delay=".5s"
           >
             <SingleFeature
-              itemClass="feature__item feature__color-1 text-center"
+              itemClass="feature__item feature__color-2 text-center"
               Image={featureImg1}
               Title="Landing pages"
               Description="Diseñamos páginas enfocadas en resultados: rápidas, modernas y pensadas para convertir visitantes en clientes. Ideal para campañas, promociones o lanzamientos."
@@ -56,7 +56,7 @@ const Feature = () => {
             data-wow-delay=".9s"
           >
             <SingleFeature
-              itemClass="feature__item feature__color-3 text-center"
+              itemClass="feature__item feature__color-2 text-center"
               Image={featureImg3}
               Title="Chat Bots"
               Description="Automatiza tus conversaciones con clientes las 24 horas. Responde preguntas, agenda citas o vende más sin necesidad de estar conectado."
@@ -70,7 +70,7 @@ const Feature = () => {
             data-wow-delay=".5s"
           >
             <SingleFeature
-              itemClass="feature__item feature__color-1 text-center"
+              itemClass="feature__item feature__color-2 text-center"
               Image={featureImg4}
               Title="Automatizaciones"
               Description="Eliminamos tareas repetitivas con procesos automáticos que ahorran tiempo y reducen errores. Enfócate en crecer, la tecnología hace el resto."
@@ -98,7 +98,7 @@ const Feature = () => {
             data-wow-delay=".9s"
           >
             <SingleFeature
-              itemClass="feature__item feature__color-3 text-center"
+              itemClass="feature__item feature__color-2 text-center"
               Image={featureImg6}
               Title="Software a medida"
               Description="Desarrollamos soluciones hechas a la medida de tu empresa. Desde sistemas de gestión hasta herramientas internas, adaptadas exactamente a tus necesidades."

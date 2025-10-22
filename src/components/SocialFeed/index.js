@@ -1,7 +1,7 @@
 import React from "react";
 
 import socialImg1 from "../../assets/img/social/social-1.png";
-import socialImg2 from "../../assets/img/social/social-2.png";
+import socialImg2 from "../../assets/img/social/icons8-instagram-logo-96.png";
 import socialImg3 from "../../assets/img/social/social-3.png";
 import socialImg4 from "../../assets/img/social/social-4.png";
 import socialImg5 from "../../assets/img/social/icons8-aplicación-telegrama-96.png";
@@ -54,7 +54,7 @@ const SocialFeed = (props) => {
               <span>MESSAGING</span>
             </div>
           </div>
-          <div className="social__link social__color-4">
+          <div className="social__link social__color-2">
             <a href="#">
               <span>
                 <i className="fal fa-arrow-right"></i>
@@ -80,7 +80,7 @@ const SocialFeed = (props) => {
               <span>MESSAGING</span>
             </div>
           </div>
-          <div className="social__link social__color-4">
+          <div className="social__link social__color-2">
             <a href="#">
               <span>
                 <i className="fal fa-arrow-right"></i>
@@ -106,7 +106,7 @@ const SocialFeed = (props) => {
               <span>MESSAGING</span>
             </div>
           </div>
-          <div className="social__link social__color-4">
+          <div className="social__link social__color-2">
             <a href="#">
               <span>
                 <i className="fal fa-arrow-right"></i>

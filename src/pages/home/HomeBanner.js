@@ -1,22 +1,21 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 
-import sliderImg1 from "../../assets/img/slider/slider-1.png";
-import shapeImg1 from "../../assets/img/slider/shape-1.png";
-import shapeImg2 from "../../assets/img/slider/shape-2.png";
-import shapeImg3 from "../../assets/img/slider/shape-3.png";
-import shapeImg4 from "../../assets/img/slider/shape-4.png";
-import shapeImg5 from "../../assets/img/slider/shape-5.png";
+import sliderImg1 from "../../assets/img/slider/Imagen_principal_Azul-Photoroom.png";
+import shapeImg1 from "../../assets/img/slider/shape_azul-1.png";
+import shapeImg2 from "../../assets/img/slider/shape_azul-2.png";
+import shapeImg3 from "../../assets/img/slider/shape_azul-3.png";
+import shapeImg4 from "../../assets/img/slider/shape_azul-4.png";
+import shapeImg5 from "../../assets/img/slider/shape-19.png";
 import shapeImg6 from "../../assets/img/slider/shape-6.png";
 import shapeImg7 from "../../assets/img/slider/shape-7.png";
-import shapeImg8 from "../../assets/img/slider/shape-8.png";
-import shapeImg9 from "../../assets/img/slider/shape-9.png";
+import shapeImg8 from "../../assets/img/slider/shape_azul-8.png";
 import shapeImg10 from "../../assets/img/slider/shape-10.png";
-import shapeImg11 from "../../assets/img/slider/shape-11.png";
+import shapeImg11 from "../../assets/img/slider/shape_azul-11.png";
 
 const Banner = () => {
   return (
-    <div className="slider__area grey-bg slider__space slider__plr p-relative z-index fix">
+    <div className="slider__area bg-custom-blue slider__space slider__plr p-relative z-index fix">
       <div
         className="slider__shape-top-1 d-none d-xl-block wow animate__fadeInUp"
         data-wow-duration="1.1s"
@@ -53,9 +52,6 @@ const Banner = () => {
       <div className="slider__shape-top-8">
         <img src={shapeImg8} alt="" />
       </div>
-      <div className="slider__shape-top-9 d-none d-xl-block">
-        <img src={shapeImg9} alt="" />
-      </div>
       <div className="slider__shape-top-10">
         <img src={shapeImg10} alt="" />
       </div>
@@ -67,7 +63,7 @@ const Banner = () => {
           <div className="col-xl-6 col-lg-6">
             <div className="slider__section-box">
               <h4
-                className="section-subtitle char-anim wow animate__fadeInUp"
+                className="section-subtitle char-anim wow animate__fadeInUp "
                 data-wow-duration="1.1s"
                 data-wow-delay=".3s"
               >
@@ -119,3 +115,7 @@ export default Banner;
   <span>Get Started</span>
   <b></b>
 </Link>;*/
+
+/*<div className="slider__shape-top-9 d-none d-xl-block">
+        <img src={shapeImg9} alt="" />
+      </div>*/

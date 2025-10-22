@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-import companyImg from "../../assets/img/company/company-1.png";
+import companyImg from "../../assets/img/company/Company-Photoroom.png";
 import tabImg1 from "../../assets/img/company/company-tab-1.png";
 import tabImg2 from "../../assets/img/company/company-tab-1.png";
 import tabImg3 from "../../assets/img/company/company-tab-1.png";
@@ -14,7 +14,7 @@ const Company = () => {
   const tabStyle = "nav nav-tab";
 
   return (
-    <div className="company__area pb-100">
+    <div className="bg-custom-blue-company company__area pb-100">
       <div className="container">
         <div className="row align-items-center">
           <div
@@ -31,7 +31,7 @@ const Company = () => {
             data-wow-duration="1.1s"
             data-wow-delay=".5s"
           >
-            <div className="company__section-box">
+            <div className="company__section-box p-5">
               <h4 className="section-subtitle char-anim">
                 Tecnología que hace crecer tu negocio
               </h4>

@@ -10,7 +10,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
+    background-color: #8599f4;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     width: 100%;
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
@@ -144,11 +144,11 @@
   }
 }
 .header-bg-color-2 {
-  background-color: var(--it-common-white);
+  background-color: #c9d7fc;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 0px 35px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  //box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   @media #{$lg} {
     padding: 0px 20px;
   }

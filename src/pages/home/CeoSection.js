@@ -9,7 +9,7 @@ import shapeImg3 from "../../assets/img/testimonial/testi-shape-4.png";
 import testimonialImg1 from "../../assets/img/testimonial/testi-1.png";
 const Ceo = () => {
   return (
-    <div className=" ceo__plr grey-bg p-relative">
+    <div className=" ceo__plr p-relative">
       <div className="container-fluid">
         <div className="row justify-content-center">
           <div

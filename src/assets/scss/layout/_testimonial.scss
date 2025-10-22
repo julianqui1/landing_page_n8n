@@ -1,4 +1,4 @@
-@use '../utils' as *;
+@use "../utils" as *;
 
 /*----------------------------------------*/
 /*  25. testimonial CSS START
@@ -60,6 +60,7 @@
     }
   }
   &__item {
+    border-radius: 15px;
     background-color: #3a3a42;
     padding: 30px;
     @media #{$xs} {
@@ -90,7 +91,7 @@
     color: var(--it-common-white);
     transition: 0.3s;
     &:hover {
-      color: var(--it-theme-1);
+      color: var(--it-theme-2);
     }
   }
   &__author-info {
@@ -119,7 +120,7 @@
       }
     }
     & i {
-      color: var(--it-theme-1);
+      color: var(--it-theme-2);
       font-size: 25px;
       padding-right: 5px;
       &.star-color {
@@ -375,7 +376,7 @@
       font-size: 21px;
     }
     &::before {
-      content: '';
+      content: "";
       height: 4px;
       width: 32px;
       background-color: var(--it-theme-1);
@@ -639,4 +640,8 @@
       right: 2%;
     }
   }
+}
+
+.bg-custom-blue-testimonial {
+  background-color: #c9d7fc;
 }

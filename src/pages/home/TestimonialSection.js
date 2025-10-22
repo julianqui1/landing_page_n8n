@@ -46,7 +46,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="testimonial__area testimonial__plr black-bg p-relative">
+    <div className="testimonial__area testimonial__plr bg-custom-blue-testimonial  p-relative">
       <div className="testimonial__shape-1">
         <img src={shapeImg1} alt="" />
       </div>
@@ -65,7 +65,7 @@ const Testimonial = () => {
             <SectionTitle
               sectionClass="testimonial__section-box text-center z-index pb-40 section-title-fixed-width"
               subTitleClass="section-subtitle section-white-bg"
-              titleClass="section-title text-white"
+              titleClass="section-title text-black"
               subTitle="Client Testimonial"
               Title="Testimonios"
             />

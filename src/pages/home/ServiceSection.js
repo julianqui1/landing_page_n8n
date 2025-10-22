@@ -188,7 +188,7 @@ const Service = () => {
   ];
 
   return (
-    <div className="service__area service__space service__mlr grey-bg pt-100 pb-70 p-relative">
+    <div className="service__area service__space service__mlr pt-100 pb-70 p-relative">
       <div className="service__shape-1">
         <img src={shapeImg1} alt="" />
       </div>

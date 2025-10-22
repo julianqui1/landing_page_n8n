@@ -2,24 +2,19 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import bgImg from "../../assets/img/slider/slider-bg-3.png";
-import Image from "../../assets/img/about/about-5.png";
+import Image from "../../assets/img/about/about 5 -Photoroom.png";
 import shapeImg1 from "../../assets/img/slider/shape-32.png";
-import shapeImg2 from "../../assets/img/slider/shape-33.png";
+import shapeImg2 from "../../assets/img/slider/shape_azul-33.png";
 import shapeImg3 from "../../assets/img/slider/shape-34.png";
-import shapeImg4 from "../../assets/img/slider/shape-35.png";
-import shapeImg5 from "../../assets/img/slider/shape-24.png";
-import shapeImg6 from "../../assets/img/slider/shape-22.png";
+import shapeImg4 from "../../assets/img/slider/shape_azul-35.png";
+import shapeImg5 from "../../assets/img/slider/shape_azul-24.png";
+import shapeImg6 from "../../assets/img/slider/shape-19.png";
 
 const Breadcrumb = (props) => {
   const { pageTitle, breadcrumbsImg, breadcrumbsBg } = props;
 
   return (
-    <div
-      className="breadcrumb__area breadcrumb__plr breadcrumb__space breadcrumb__bg breadcrumb__overlay p-relative fix"
-      style={{
-        backgroundImage: `url(${breadcrumbsBg ? breadcrumbsBg : bgImg})`,
-      }}
-    >
+    <div className=" breadcrumb__area breadcrumb__plr breadcrumb__space breadcrumb__bg breadcrumb__overlay p-relative fix">
       <div
         className="breadcrumb__shape-1 d-none d-md-block wow animate__fadeInRight"
         data-wow-duration=".9s"
@@ -41,9 +36,6 @@ const Breadcrumb = (props) => {
       </div>
       <div className="breadcrumb__shape-6">
         <img src={shapeImg6} alt="" />
-      </div>
-      <div className="breadcrumb__big-text d-none d-lg-block">
-        <h2>Sorex</h2>
       </div>
       <div className="container-fluid">
         <div className="row align-items-center">
@@ -82,3 +74,11 @@ const Breadcrumb = (props) => {
 export default Breadcrumb;
 
 //{pageTitle ? pageTitle : "About Us"}
+
+/*style={{
+        backgroundImage: `url(${breadcrumbsBg ? breadcrumbsBg : bgImg})`,
+      }}*/
+
+/*<div className="breadcrumb__big-text d-none d-lg-block">
+        <h2>Softintelligent</h2>
+      </div>*/
