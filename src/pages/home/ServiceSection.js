@@ -153,7 +153,7 @@ const Service = () => {
     {
       title: "Automatización e Integraciones Inteligentes",
       description:
-        "Conectamos tus herramientas y sistemas, facturación, gestión de clientes (CRM) o control interno (ERP) para que toda tu información se sincronice automáticamente. Así, tareas como registros, reportes o cotizaciones se hacen solas, ahorrándote horas de trabajo y reduciendo errores.",
+        "Conectamos tus herramientas de trabajo, como sistemas de facturación, control de inventario o seguimiento de clientes, para que toda la información se actualice de forma automática. De esta manera, tareas como registros, reportes o cotizaciones se hacen solas, ahorrándote tiempo y evitando errores.",
       icon: "fas fa-mobile-alt",
       colorClass: "2",
     },
@@ -181,7 +181,7 @@ const Service = () => {
     {
       title: "Soporte y Mantenimiento",
       description:
-        "Nos encargamos de que tu web esté siempre activa, segura y actualizada. Si algo falla, lo resolvemos rápido para que tú solo te enfoques en hacer crecer tu negocio.",
+        "Nos encargamos de que todo tu sistema funcione sin interrupciones: sitio web, tienda online, integraciones, automatizaciones e inteligencia artificial. Si algo falla o necesita mejoras, lo resolvemos rápido para que tú puedas enfocarte en hacer crecer tu negocio mientras nosotros mantenemos todo al día, seguro y optimizado.",
       icon: "fas fa-headset",
       colorClass: "6",
     },
