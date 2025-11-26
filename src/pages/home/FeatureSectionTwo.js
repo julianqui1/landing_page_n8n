@@ -2,7 +2,7 @@ import React from "react";
 import SectionTitle from "../../components/SectionTitle";
 import SingleFeature from "../../components/Feature";
 
-import featureImg1 from "../../assets/img/feature/icons8-trolley-96.png";
+import featureImg1 from "../../assets/img/feature/icons8-website-100.png";
 import featureImg2 from "../../assets/img/feature/icons8-landing-page-100.png";
 import featureImg3 from "../../assets/img/feature/icons8-case-study-64.png";
 import featureImg4 from "../../assets/img/feature/icons8-spiral-bound-booklet-64.png";
@@ -30,8 +30,8 @@ const Feature = () => {
             <SingleFeature
               itemClass="feature__item feature__color-2 text-center"
               Image={featureImg1}
-              Title="Inventario"
-              Description="Organiza fácilmente todos tus productos e insumos. Nuestro inventario digital te muestra cantidades reales, movimientos y alertas para que mantengas todo bajo control."
+              Title="Hola mundo"
+              Description="Diseñamos páginas enfocadas en resultados: rápidas, modernas y pensadas para convertir visitantes en clientes. Ideal para campañas, promociones o lanzamientos."
               btnText="See More"
               btnURL="/service-details"
             />
@@ -44,8 +44,8 @@ const Feature = () => {
             <SingleFeature
               itemClass="feature__item feature__color-2 text-center"
               Image={featureImg2}
-              Title="Reportes de rendimiento y productividad"
-              Description="Consulta reportes detallados sobre la productividad de tus cultivos, procesos y empleados, con información precisa para mejorar resultados cada temporada."
+              Title="Aplicaciones web"
+              Description="Creamos aplicaciones web personalizadas que te ayudan a gestionar tu negocio desde cualquier lugar. Todo lo que necesitas, en una sola plataforma online."
               btnText="See More"
               btnURL="/service-details"
             />
@@ -103,8 +103,8 @@ const Feature = () => {
             <SingleFeature
               itemClass="feature__item feature__color-2 text-center"
               Image={featureImg6}
-              Title="Gestión de personal y actividades"
-              Description="Organiza y supervisa las tareas diarias de tu equipo. Asigna actividades, realiza seguimiento del progreso y mantén un control claro del trabajo realizado en el cultivo para mejorar la eficiencia y evitar retrasos."
+              Title="Software a medida"
+              Description="Desarrollamos soluciones hechas a la medida de tu empresa. Desde sistemas de gestión hasta herramientas internas, adaptadas exactamente a tus necesidades."
               btnText="See More"
               btnURL="/service-details"
             />

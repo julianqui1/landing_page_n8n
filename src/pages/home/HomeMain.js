@@ -6,6 +6,7 @@ import Company from "./CompanySection";
 import Counter from "./CounterSection";
 import CTA from "./CtaSection";
 import Feature from "./FeatureSection";
+import FeatureSectionTwo from "./FeatureSectionTwo";
 import Banner from "./HomeBanner";
 import Project from "./ProjectSection";
 import Service from "./ServiceSection";
@@ -24,7 +25,7 @@ const HomeMain = () => {
 
       <Feature />
 
-      <Feature />
+      <FeatureSectionTwo />
 
       <Project />
 
@@ -34,11 +35,11 @@ const HomeMain = () => {
 
       <Company />
 
-      <Brand />
+      {/* <Brand /> */}
 
       {/* <Testimonial /> */}
 
-      <Blog />
+      {/* <Blog /> */}
 
       <CTA />
     </main>

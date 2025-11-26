@@ -7,10 +7,10 @@ import shapeImg2 from "../../assets/img/counter/counter-shape-1.png";
 
 const Counter = () => {
   const plan = {
-    title: "Suscripción Básica", // Título ajustado para mayor claridad
+    title: "Suscripción", // Título ajustado para mayor claridad
     subtitle: "Soluciones digitales con pago mensual",
-    price: 10,
-    badge: "Inicia Aquí",
+    price: 30,
+    badge: <i class="fas fa-star"></i>,
     features: [
       { text: "Diseño Web Profesional y Moderno", included: true },
       { text: "Sitio Web Adaptable a Móviles", included: true },
