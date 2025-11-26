@@ -77,9 +77,10 @@ const SingleService = (props) => {
     itemClass,
     titleClass,
     descClass,
-    icon,
+    //icon,
+    img,
     Title,
-    Description,
+    //Description,
     colorClass,
   } = props;
 
@@ -103,13 +104,19 @@ const SingleService = (props) => {
         <img src={Shape} alt="" />
       </div>
 
-      <div className="service__icon mb-3">
+      {img && (
+        <div className="service__image mb-3">
+          <img src={img} alt={Title} className="img-fluid rounded" />
+        </div>
+      )}
+
+      {/* <div className="service__icon mb-3">
         <i
           className={`${icon || "fas fa-question-circle"} 
              display-4 
              ${colorClasses[colorClass - 1] || "text-primary"}`}
         ></i>
-      </div>
+      </div> */}
 
       {/* 2. HACEMOS QUE EL CONTENIDO CREZCA PARA EMPUJAR ELEMENTOS (SI LOS HUBIERA) */}
       <div className="service__content flex-grow-1">
@@ -118,11 +125,11 @@ const SingleService = (props) => {
         >
           <a>{Title ? Title : "Get Latest Updates"}</a>
         </h4>
-        <p className={descClass ? descClass : ""}>
+        {/* <p className={descClass ? descClass : ""}>
           {Description
             ? Description
             : "Business building it before the tab providet management, Payroll & Worksite Services full-fledged."}
-        </p>
+        </p> */}
       </div>
     </div>
   );

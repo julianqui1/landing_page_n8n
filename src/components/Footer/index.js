@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Logo from "../../assets/img/logo/footer-logo.png";
+import Logo from "../../assets/img/logo/logo_letra_blanca_soft-paint_v2.png";
 import footerBG from "../../assets/img/footer/footer-bg.jpg";
 
 const Footer = (props) => {
@@ -15,11 +15,11 @@ const Footer = (props) => {
         <div className="container-fluid">
           <div className="row">
             <div
-              className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-7 mb-70 wow animate__fadeInUp"
+              className="mt-md-4 mt-lg-5 mt-xl-5 col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 mb-20 wow animate__fadeInUp"
               data-wow-duration="1.1s"
             >
               <div className="footer__widget footer-col-1">
-                <div className="footer__logo">
+                <div className="footer__logo logo_img_footer">
                   <Link to="/">
                     <img src={footerLogo ? footerLogo : Logo} alt="" />
                   </Link>
@@ -34,34 +34,19 @@ const Footer = (props) => {
                 </div>
               </div>
             </div>
-            <div
-              className="col-xxl-3 col-xl-2 col-lg-6 col-md-6 col-sm-5 mb-70 wow animate__fadeInUp"
+            {/* <div
+              className="col-xxl-3 col-xl-2 col-lg-6 col-md-6 col-sm-6 mb-70 wow animate__fadeInUp"
               data-wow-duration="1.1s"
             ></div>
             <div
-              className="col-xxl-3 col-xl-2 col-lg-6 col-md-6 col-sm-5 mb-70 wow animate__fadeInUp"
+              className="col-xxl-3 col-xl-2 col-lg-6 col-md-6 col-sm-6 mb-70 wow animate__fadeInUp"
               data-wow-duration="1.1s"
-            ></div>
+            ></div> */}
             <div
-              className="col-xxl-3 col-xl-4 col-lg-6 col-md-6 col-sm-7 mb-70 wow animate__fadeInUp"
+              className="mt-md-4 mt-lg-5 mt-xl-5 col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6 mb-20 wow animate__fadeInUp"
               data-wow-duration="1.1s"
             >
               <div className="footer__widget footer-col-4">
-                <div className="footer__social-box">
-                  <span>Redes sociales</span>
-                  <a href="#">
-                    <i className="fab fa-linkedin"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-tiktok"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fab fa-whatsapp-square"></i>
-                  </a>
-                </div>
                 <div className="footer__number-wrapper d-flex align-items-center">
                   <div className="footer__number-icon">
                     <span>
@@ -73,7 +58,7 @@ const Footer = (props) => {
                     <a href="tel:+230045647823">+230-045-647-823</a>
                   </div>
 
-                  <div className="footer__number-icon mt-3">
+                  <div className="footer__number-icon">
                     <span>
                       <i className="fal fa-map-marker-alt"></i>
                     </span>
@@ -85,10 +70,29 @@ const Footer = (props) => {
                 </div>
               </div>
             </div>
+            <div
+              className="mt-md-4 mt-lg-5 mt-xl-5 col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6 mb-20 wow animate__fadeInUp"
+              data-wow-duration="1.1s"
+            >
+              <div className="footer__social-box">
+                <span>Redes sociales</span>
+                <a href="#">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="#">
+                  <i className="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i className="fab fa-tiktok"></i>
+                </a>
+                <a href="#">
+                  <i className="fab fa-whatsapp-square"></i>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
       <div className="copyright__area copyright__plr black-bg-3">
         <div className="container-fluid">
           <div className="row align-items-center">
@@ -97,7 +101,9 @@ const Footer = (props) => {
               data-wow-duration="1.1s"
             >
               <div className="copyright__text">
-                <span>Copyright Sorex 2024, All Right Reserved</span>
+                <span>
+                  Copyright Softintelligent 2025, Todos los derechos reservados
+                </span>
               </div>
             </div>
             <div
@@ -106,11 +112,11 @@ const Footer = (props) => {
             >
               <div className="copyright__item text-start text-md-end">
                 <span>
-                  <a href="#">Home</a>
+                  <a href="#">Inicio</a>
                 </span>
-                <span>Cases </span>
-                <span>About</span>
-                <span>Privacy & Policy</span>
+                {/* <span>Cases </span> */}
+                {/* <span>About</span> */}
+                {/* <span>Privacidad y politica</span> */}
               </div>
             </div>
           </div>
@@ -189,3 +195,19 @@ export default Footer;
               </div>*/
 
 /*footer__number-wrapper d-flex flex-column align-items-start*/
+
+/*<div className="footer__social-box">
+                  <span>Redes sociales</span>
+                  <a href="#">
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                  <a href="#">
+                    <i className="fab fa-instagram"></i>
+                  </a>
+                  <a href="#">
+                    <i className="fab fa-tiktok"></i>
+                  </a>
+                  <a href="#">
+                    <i className="fab fa-whatsapp-square"></i>
+                  </a>
+                </div>*/

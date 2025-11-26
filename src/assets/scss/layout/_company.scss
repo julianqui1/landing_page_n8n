@@ -6,7 +6,7 @@
 .company {
   &__left-img {
     & img {
-      max-width: inherit;
+      max-width: 600px;
       margin-left: -225px;
       @media #{$xxxl} {
         max-width: 100%;
@@ -102,5 +102,5 @@
 }
 
 .bg-custom-blue-company {
-  background-color: #eff3fe;
+  background-color: #ebf8ec;
 }

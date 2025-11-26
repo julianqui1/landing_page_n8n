@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-import companyImg from "../../assets/img/company/Company-Photoroom.png";
+import companyImg from "../../assets/img/company/segunda_imagen_agricultura_company.png";
 import tabImg1 from "../../assets/img/company/company-tab-1.png";
 import tabImg2 from "../../assets/img/company/company-tab-1.png";
 import tabImg3 from "../../assets/img/company/company-tab-1.png";
@@ -36,22 +36,21 @@ const Company = () => {
                 Tecnología que hace crecer tu negocio
               </h4>
               <h3 className="section-title pb-10 char-anim">
-                Llevamos la automatización y el desarrollo digital a empresas
-                que buscan ser más competitivas sin complicaciones ni altos
-                costos.
+                Impulsamos la digitalización del sector agrícola con
+                herramientas simples y accesibles que mejoran la gestión sin
+                elevar los costos.
               </h3>
               <p className="char-anim-2">
-                En SoftIntelligent, creemos que la tecnología debe trabajar para
-                las personas, no al revés. Somos una empresa colombiana dedicada
-                a crear soluciones digitales inteligentes que ayudan a las
-                empresas de toda Latinoamérica a optimizar procesos, automatizar
-                tareas y potenciar su presencia digital. Desarrollamos software
-                a medida, sitios web, chatbots, automatizaciones y estrategias
-                de marketing digital con un enfoque en resultados reales.
-                Nuestro compromiso es acompañarte en cada paso del crecimiento
-                de tu negocio, con innovación, eficiencia y un trato humano.
-                SoftIntelligent: tecnología hecha en Colombia para transformar
-                Latinoamérica.
+                En SoftIntelligent creemos que la tecnología debe simplificar el
+                trabajo en el campo, no hacerlo más complejo. Somos una empresa
+                colombiana dedicada a desarrollar herramientas digitales que
+                apoyan a productores, asociaciones y empresas agrícolas en la
+                gestión de sus procesos. Creamos soluciones como cuadernos
+                digitales, trazabilidad, inventarios, automatizaciones y
+                sistemas personalizados que facilitan el día a día
+                administrativo y mejoran la toma de decisiones. Nuestro
+                compromiso es acompañarte en cada etapa, con innovación
+                accesible, eficiencia y un trato humano.
               </p>
             </div>
             <div className="tab-content" id="myTabContent">

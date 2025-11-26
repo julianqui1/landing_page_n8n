@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import MenuItems from "./MenuItems";
 import Topbar from "./Topbar";
 
-import Logo from "../../assets/img/logo/logo-1.png";
-import offCanvasLogo from "../../assets/img/logo/footer-logo.png";
+import Logo from "../../assets/img/logo/logo_letra_negra_soft-Photoroom_v3.png";
+import offCanvasLogo from "../../assets/img/logo/logo_letra_blanca_soft-Photoroom.png";
 import Shape from "../../assets/img/offcanvas/offcanvas-shape-1.jpg";
 
 const Header = (props) => {
@@ -100,7 +100,7 @@ const Header = (props) => {
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col-xl-3 col-lg-3 col-7 col-md-6">
-                <div className="header__logo">
+                <div className="header__logo logo_img">
                   <Link to="/">
                     <img src={headerLogo ? headerLogo : Logo} alt="" />
                   </Link>

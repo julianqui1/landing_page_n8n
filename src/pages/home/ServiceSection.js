@@ -139,94 +139,89 @@ import SingleService from "../../components/Service"; // Seguiremos usando tu co
 // Imágenes de fondo y formas
 import shapeImg1 from "../../assets/img/service/sv-shape-1.png";
 import shapeImg2 from "../../assets/img/service/sv-shape-2.png";
+import serviceimg1 from "../../assets/img/service/hortofrutícola.jpg";
+import serviceimg2 from "../../assets/img/service/Frutos_secos.jpg";
+import serviceimg3 from "../../assets/img/service/Viñedos.jpg";
+import serviceimg4 from "../../assets/img/service/Cereales.jpg";
+import serviceimg5 from "../../assets/img/service/Floricultura.jpg";
+import serviceimg6 from "../../assets/img/service/Otros_tipos_cultivos.jpg";
 
 const Service = () => {
   // Array con la información de los servicios actualizada
   const servicesData = [
     {
-      title: "Desarrollo Web Moderno",
-      description:
-        "Creamos sitios web visualmente atractivos, rápidos y funcionales, diseñados para reflejar la identidad de tu marca y adaptarse a cualquier dispositivo. Tus clientes disfrutarán una experiencia moderna, sin importar desde dónde te visiten..",
-      icon: "fas fa-laptop-code",
-      colorClass: "1",
+      img: serviceimg1,
+      title: "Hortofrutícola",
+      //description:
+      //"Creamos sitios web visualmente atractivos, rápidos y funcionales, diseñados para reflejar la identidad de tu marca y adaptarse a cualquier dispositivo. Tus //clientes disfrutarán una experiencia moderna, sin importar desde dónde te visiten..",
+      // icon: "fas fa-laptop-code",
+      //colorClass: "1",
     },
     {
-      title: "Automatización e Integraciones Inteligentes",
-      description:
-        "Conectamos tus herramientas de trabajo, como sistemas de facturación, control de inventario o seguimiento de clientes, para que toda la información se actualice de forma automática. De esta manera, tareas como registros, reportes o cotizaciones se hacen solas, ahorrándote tiempo y evitando errores.",
-      icon: "fas fa-mobile-alt",
-      colorClass: "2",
+      img: serviceimg2,
+      title: "Frutos Secos",
     },
     {
-      title: "Integración de Inteligencia Artificial",
-      description:
-        "Impulsa tu negocio con asistentes inteligentes que responden preguntas, agendan citas o venden por ti las 24 horas. Además, analizamos los datos para ofrecerte decisiones más acertadas.",
-      icon: "fas fa-brain", // <- ICONO Y TEXTO CAMBIADO
-      colorClass: "3",
+      img: serviceimg3,
+      title: "Viñedos",
     },
     {
-      title: "Funcionalidades E-commerce",
-      description:
-        "Convierte tu sitio web en una tienda online profesional con carrito de compras, pagos seguros y control de pedidos. Ideal para vender tus productos o servicios sin intermediarios.",
-      icon: "fas fa-cogs",
-      colorClass: "4",
+      img: serviceimg4,
+      title: "Cerealista",
     },
     {
-      title: "Conectividad total",
-      description:
-        "Conecta tu sitio con tus redes sociales y sistemas de gestión interna. Mantén toda la información sincronizada y comunícate mejor con tus clientes en todos los canales.",
-      icon: "fas fa-sync-alt",
-      colorClass: "5",
+      img: serviceimg5,
+      title: "Floricultura",
     },
     {
-      title: "Soporte y Mantenimiento",
-      description:
-        "Nos encargamos de que todo tu sistema funcione sin interrupciones: sitio web, tienda online, integraciones, automatizaciones e inteligencia artificial. Si algo falla o necesita mejoras, lo resolvemos rápido para que tú puedas enfocarte en hacer crecer tu negocio mientras nosotros mantenemos todo al día, seguro y optimizado.",
-      icon: "fas fa-headset",
-      colorClass: "6",
+      img: serviceimg6,
+      title: "Otros tipos de cultivos",
     },
   ];
 
   return (
-    <div className="service__area service__space service__mlr pt-100 pb-70 p-relative">
-      <div className="service__shape-1">
-        <img src={shapeImg1} alt="" />
-      </div>
-      <div className="service__shape-2">
-        <img src={shapeImg2} alt="" />
-      </div>
-      <div className="container-fluid">
-        <div className="row justify-content-center">
-          <div
-            className="col-xl-6 col-lg-6 wow animate__fadeInUp"
-            data-wow-duration="1.1s"
-          >
-            <SectionTitle
-              sectionClass="service__section-box text-center pb-35 section-title-fixed-width"
-              subTitle="Nuestros Servicios"
-              Title="Un Vistazo a lo que Podemos Hacer por Ti"
-            />
-          </div>
+    <div className="custom-cards">
+      <div className="service__area service__space service__mlr pt-100 pb-70 p-relative">
+        <div className="service__shape-1">
+          <img src={shapeImg1} alt="" />
         </div>
-        <div className="row">
-          {servicesData.map((service, index) => (
+        <div className="service__shape-2">
+          <img src={shapeImg2} alt="" />
+        </div>
+        <div className="container-fluid">
+          <div className="row justify-content-center">
             <div
-              key={index}
-              className="col-xl-4 col-lg-6 col-md-6 mb-30 wow animate__fadeInUp"
-              data-wow-duration=".9s"
-              data-wow-delay={`${0.5 + index * 0.2}s`}
+              className="col-xl-6 col-lg-6 wow animate__fadeInUp"
+              data-wow-duration="1.1s"
             >
-              <SingleService
-                itemClass={`service__item service__border-${service.colorClass} p-relative fix`}
-                titleClass={`service__title title-color-${service.colorClass}`}
-                btnClass={`service__link service__link-color-${service.colorClass}`}
-                icon={service.icon}
-                Title={service.title}
-                Description={service.description}
-                colorClass={service.colorClass}
+              <SectionTitle
+                sectionClass="service__section-box text-center pb-35 section-title-fixed-width"
+                subTitle="Nuestros Servicios"
+                Title="Resolvemos las necesidades de tu cultivo con tecnología moderna"
               />
             </div>
-          ))}
+          </div>
+          <div className="row">
+            {servicesData.map((service, index) => (
+              <div
+                key={index}
+                className="col-xl-4 col-lg-6 col-md-6 mb-30 wow animate__fadeInUp"
+                data-wow-duration=".9s"
+                data-wow-delay={`${0.5 + index * 0.2}s`}
+              >
+                <SingleService
+                  itemClass={`service__item service__border-${service.colorClass} p-relative fix`}
+                  titleClass={`service__title title-color-${service.colorClass}`}
+                  btnClass={`service__link service__link-color-${service.colorClass}`}
+                  icon={service.icon}
+                  img={service.img}
+                  Title={service.title}
+                  Description={service.description}
+                  colorClass={service.colorClass}
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

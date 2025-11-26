@@ -118,10 +118,10 @@
     }
   }
   &__item {
-    background-color: #eff3fe;
+    background-color: #ebf8ec;
     border: 2px dashed transparent;
     transition: 0.3s;
-    border-top-right-radius: 20%;
+    //border-top-right-radius: 20%;
     padding: 70px 55px;
     @media #{$xl} {
       padding: 60px 46px;
@@ -1012,4 +1012,48 @@
       }
     }
   }
+}
+
+.custom-cards .service__item {
+  background: #ffffff !important;
+  border-radius: 20px !important;
+  padding: 35px !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Hover elegante */
+.custom-cards .service__item:hover {
+  transform: translateY(-6px) !important;
+  border-color: #10b981 !important; /* verde suave */
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Ícono centrado y más grande */
+.custom-cards .service__icon-wrapper i {
+  font-size: 40px !important;
+  color: #10b981 !important;
+}
+
+/* Título */
+.custom-cards .service__title {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  color: #111827 !important;
+  margin-top: 15px !important;
+}
+
+/* Descripción */
+.custom-cards .service__content p {
+  color: #4b5563 !important;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+}
+
+/* Enlace */
+.custom-cards .service__link a {
+  font-size: 16px !important;
+  color: #10b981 !important;
+  font-weight: 500 !important;
 }

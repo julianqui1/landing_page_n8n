@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import bgImg from "../../assets/img/slider/slider-bg-3.png";
-import Image from "../../assets/img/about/about 5 -Photoroom.png";
+import Image from "../../assets/img/about/imagen_agricultura-3.png";
 import shapeImg1 from "../../assets/img/slider/shape-32.png";
 import shapeImg2 from "../../assets/img/slider/shape_azul-33.png";
 import shapeImg3 from "../../assets/img/slider/shape-34.png";

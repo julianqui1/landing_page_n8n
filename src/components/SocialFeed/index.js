@@ -25,7 +25,6 @@ const SocialFeed = (props) => {
               <h4 className="social__title">
                 <a href="#">Instagram</a>
               </h4>
-              <span>MESSAGING</span>
             </div>
           </div>
           <div className="social__link social__color-2">
@@ -51,7 +50,6 @@ const SocialFeed = (props) => {
               <h4 className="social__title">
                 <a href="#">Telegram</a>
               </h4>
-              <span>MESSAGING</span>
             </div>
           </div>
           <div className="social__link social__color-2">
@@ -77,7 +75,6 @@ const SocialFeed = (props) => {
               <h4 className="social__title">
                 <a href="#">WhatsApp</a>
               </h4>
-              <span>MESSAGING</span>
             </div>
           </div>
           <div className="social__link social__color-2">
@@ -103,7 +100,6 @@ const SocialFeed = (props) => {
               <h4 className="social__title">
                 <a href="#">Gmail</a>
               </h4>
-              <span>MESSAGING</span>
             </div>
           </div>
           <div className="social__link social__color-2">

@@ -23,13 +23,19 @@ const Counter = () => {
       //{ text: "Certificado de Seguridad (SSL)", included: true },
       { text: "Mantenimiento 24/7", included: true },
       { text: "Integración con Redes Sociales", included: true },
+      { text: "Cuaderno digital", included: true },
+      { text: "Panel de informes", included: true },
+      { text: "Capacitaciones y acompañamiento", included: true },
+
       {
         text: "Automatización de Tareas (Ej: inventarios, cotizaciones, cuentas cobro y mucho mas.)",
         included: false,
       },
+      { text: "Trazabilidad completa del cultivo", included: false },
+      { text: "Inventarios avanzados y por lotes", included: false },
       { text: "Integración con CRM / ERP", included: false },
       { text: "Funcionalidades E-commerce", included: false },
-      { text: "Reportes de rendimiento", included: false },
+      { text: "Reportes de rendimiento y productividad", included: false },
     ],
   };
 

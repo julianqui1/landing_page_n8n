@@ -2,12 +2,12 @@ import React from "react";
 import SectionTitle from "../../components/SectionTitle";
 import SingleFeature from "../../components/Feature";
 
-import featureImg1 from "../../assets/img/feature/icons8-web-96.png";
-import featureImg2 from "../../assets/img/feature/icons8-aplicaciones-96.png";
-import featureImg3 from "../../assets/img/feature/icons8-charla-96.png";
-import featureImg4 from "../../assets/img/feature/icons8-automatización-96.png";
-import featureImg5 from "../../assets/img/feature/icons8-marketing-de-medios-sociales-96.png";
-import featureImg6 from "../../assets/img/feature/icons8-caja-de-software-96.png";
+import featureImg1 from "../../assets/img/feature/icons8-website-100.png";
+import featureImg2 from "../../assets/img/feature/icons8-landing-page-100.png";
+import featureImg3 from "../../assets/img/feature/icons8-case-study-64.png";
+import featureImg4 from "../../assets/img/feature/icons8-spiral-bound-booklet-64.png";
+import featureImg5 from "../../assets/img/feature/icons8-graph-report-100.png";
+import featureImg6 from "../../assets/img/feature/icons8-software-64.png";
 
 const Feature = () => {
   return (
@@ -58,8 +58,9 @@ const Feature = () => {
             <SingleFeature
               itemClass="feature__item feature__color-2 text-center"
               Image={featureImg3}
-              Title="Chat Bots"
-              Description="Automatiza tus conversaciones con clientes las 24 horas. Responde preguntas, agenda citas o vende más sin necesidad de estar conectado."
+              Title="Sistemas de trazabilidad"
+              Description="Lleva el registro completo de tus productos desde la siembra hasta la venta.
+              nuestro sistema te muestra toda la historia del cultivo de forma clara y ordenada para garantizar calidad y cumplir con normas."
               btnText="See More"
               btnURL="/service-details"
             />
@@ -72,8 +73,9 @@ const Feature = () => {
             <SingleFeature
               itemClass="feature__item feature__color-2 text-center"
               Image={featureImg4}
-              Title="Automatizaciones"
-              Description="Eliminamos tareas repetitivas con procesos automáticos que ahorran tiempo y reducen errores. Enfócate en crecer, la tecnología hace el resto."
+              Title="Cuaderno digital"
+              Description="Un cuaderno digital donde registras todas las actividades de tu cultivo sin papeleo.
+              lleva el control de siembras, aplicaciones, gastos y tareas desde tu celular o computador de forma fácil y rápida."
               btnText="See More"
               btnURL="/service-details"
             />
@@ -86,8 +88,9 @@ const Feature = () => {
             <SingleFeature
               itemClass="feature__item feature__color-2 text-center"
               Image={featureImg5}
-              Title="Marketing Digital"
-              Description="Te ayudamos a atraer más clientes con estrategias digitales efectivas. Publicidad, redes sociales y posicionamiento que generan resultados reales."
+              Title="Gestión y consulta de informes"
+              Description="Obtén informes claros y completos sobre tus cultivos, costos y actividades.
+              consulta toda la información desde cualquier dispositivo y toma decisiones con datos reales y actualizados."
               btnText="See More"
               btnURL="/service-details"
             />

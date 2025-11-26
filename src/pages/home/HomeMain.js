@@ -18,11 +18,13 @@ const HomeMain = () => {
     <main>
       <Banner />
 
-      <Feature />
+      <Service />
 
       <Counter />
 
-      <Service />
+      <Feature />
+
+      <Feature />
 
       <Project />
 
@@ -34,7 +36,7 @@ const HomeMain = () => {
 
       <Brand />
 
-      <Testimonial />
+      {/* <Testimonial /> */}
 
       <Blog />
 

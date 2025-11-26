@@ -35,7 +35,7 @@
     }
     & .header__logo {
       @media #{$md,$xs} {
-        padding: 20px 0;
+        padding: 6px 0;
       }
     }
   }
@@ -144,7 +144,7 @@
   }
 }
 .header-bg-color-2 {
-  background-color: #eff3fe;
+  background-color: #ebf8ec;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 0px 35px;
@@ -489,4 +489,8 @@
   display: flex;
   gap: 30px;
   flex-wrap: nowrap;
+}
+
+.logo_img {
+  max-width: 50%;
 }

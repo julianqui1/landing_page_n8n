@@ -6,7 +6,9 @@ import shapeImg1 from "../../assets/img/testimonial/testi-shape-2.png";
 import shapeImg2 from "../../assets/img/testimonial/testi-shape-3.png";
 import shapeImg3 from "../../assets/img/testimonial/testi-shape-4.png";
 
-import testimonialImg1 from "../../assets/img/testimonial/testi-1.png";
+import testimonialImg1 from "../../assets/img/testimonial/Alex B.jpg";
+// import testimonialImg2 from "../../assets/img/testimonial/Santiago Henao.jpg";
+import testimonialImg3 from "../../assets/img/testimonial/foto.jpg";
 const Ceo = () => {
   return (
     <div className=" ceo__plr p-relative">
@@ -50,7 +52,7 @@ const Ceo = () => {
                 </div>
                 <div className="ceo__content">
                   <h5 className="ceo__author-name">Santiago Henao Monsalve</h5>
-                  <p>Cofundador-CTO</p>
+                  <p>Cofundador CTO - CEO</p>
                 </div>
               </div>
             </div>
@@ -60,7 +62,7 @@ const Ceo = () => {
             >
               <div className="ceo__item">
                 <div className="ceo__main-img">
-                  <img src={testimonialImg1} alt="Fundador 1" />
+                  <img src={testimonialImg3} alt="Fundador 1" />
                 </div>
                 <div className="ceo__content">
                   <h5 className="ceo__author-name">Julian Quintero Quintero</h5>

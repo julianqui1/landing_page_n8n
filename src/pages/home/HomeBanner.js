@@ -1,17 +1,17 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 
-import sliderImg1 from "../../assets/img/slider/Imagen_principal_Azul-Photoroom.png";
-import shapeImg1 from "../../assets/img/slider/shape_azul-1.png";
-import shapeImg2 from "../../assets/img/slider/shape_azul-2.png";
-import shapeImg3 from "../../assets/img/slider/shape_azul-3.png";
-import shapeImg4 from "../../assets/img/slider/shape_azul-4.png";
+import sliderImg1 from "../../assets/img/slider/imagen_principal_agricultura.png";
+import shapeImg1 from "../../assets/img/slider/shape_verde_claro-1.png";
+import shapeImg2 from "../../assets/img/slider/shape_verde_claro-2.png";
+import shapeImg3 from "../../assets/img/slider/shape_verde_claro-3.png";
+import shapeImg4 from "../../assets/img/slider/shape_verde_claro-4.png";
 import shapeImg5 from "../../assets/img/slider/shape-19.png";
-import shapeImg6 from "../../assets/img/slider/shape-6.png";
-import shapeImg7 from "../../assets/img/slider/shape-7.png";
+//import shapeImg6 from "../../assets/img/slider/shape-6.png";
+//import shapeImg7 from "../../assets/img/slider/shape-7.png";
 import shapeImg8 from "../../assets/img/slider/shape_azul-8.png";
-import shapeImg10 from "../../assets/img/slider/shape-10.png";
-import shapeImg11 from "../../assets/img/slider/shape_azul-11.png";
+//import shapeImg10 from "../../assets/img/slider/shape-10.png";
+//import shapeImg11 from "../../assets/img/slider/shape_azul-11.png";
 
 const Banner = () => {
   return (
@@ -43,21 +43,21 @@ const Banner = () => {
       <div className="slider__shape-top-5 d-none d-xxl-block">
         <img src={shapeImg5} alt="" />
       </div>
-      <div className="slider__shape-top-6 d-none d-lg-block">
+      {/* <div className="slider__shape-top-6 d-none d-lg-block">
         <img src={shapeImg6} alt="" />
       </div>
       <div className="slider__shape-top-7 d-none d-sm-block">
         <img src={shapeImg7} alt="" />
-      </div>
+      </div> */}
       <div className="slider__shape-top-8">
         <img src={shapeImg8} alt="" />
       </div>
-      <div className="slider__shape-top-10">
+      {/* <div className="slider__shape-top-10">
         <img src={shapeImg10} alt="" />
       </div>
       <div className="slider__shape-top-11">
         <img src={shapeImg11} alt="" />
-      </div>
+      </div> */}
       <div className="container-fluid">
         <div className="row align-items-center">
           <div className="col-xl-6 col-lg-6">
@@ -74,8 +74,8 @@ const Banner = () => {
                 data-wow-duration="1.1s"
                 data-wow-delay=".3s"
               >
-                Ahorra hasta un 40% en costos operativos y libera cientos de
-                horas al año
+                Organiza tu producción agrícola con herramientas digitales y
+                ahorra cientos de horas al año
               </h3>
             </div>
             <div
@@ -84,8 +84,8 @@ const Banner = () => {
               data-wow-delay=".3s"
             >
               <p className="char-anim-2">
-                Optimizamos procesos que te ahorran tiempo y reducen costos con
-                soluciones tecnológicas accesibles y efectivas.{" "}
+                Mejoramos la organización de tus cultivos con tecnología
+                intuitiva que reduce el esfuerzo y optimiza tu tiempo.{" "}
               </p>
             </div>
             <div
